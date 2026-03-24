@@ -2,9 +2,12 @@
 name: Claude Code Loops and Scheduled Tasks
 description: /loop for session-bound recurring prompts, /schedule for persistent daily/weekly automation, cron tools, limitations, Google Workspace CLI
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcript (Nate Herk, "4 Claude Code Updates")
 confidence: high
 date_added: 2026-03-24
+tags: [scheduling, automation, cron, loops, remote-triggers]
+related: [claude_code_advanced_workflows.md]
 ---
 
 ## Two Tiers of Recurring Automation

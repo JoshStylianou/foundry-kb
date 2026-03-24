@@ -2,9 +2,12 @@
 name: Claude Code Practical Tips
 description: Hooks vs Skills vs Slash Commands, Gemini CLI fallback, verification tables, clipboard workflows
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
+tags: [claude-code, tips, productivity, workflows]
+related: [claude_code_advanced_workflows.md, claude_code_context_management.md]
 ---
 
 ## Hooks vs Skills vs Slash Commands

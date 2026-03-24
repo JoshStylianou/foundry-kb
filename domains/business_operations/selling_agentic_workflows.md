@@ -2,9 +2,12 @@
 name: Selling Agentic Workflows
 description: Market sizing, pricing strategy, positioning framework, and career path for selling AI agent builds
 type: insight
+domain: business_operations
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
+tags: [sales, agentic-workflows, consulting, client-facing]
+related: [agentic_workflows_patterns.md, agentic_deployment_patterns.md]
 ---
 
 ## Market Size

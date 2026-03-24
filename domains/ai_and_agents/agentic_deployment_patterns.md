@@ -2,9 +2,12 @@
 name: Agentic Deployment Patterns
 description: Three waves of AI automation, trigger.dev deployment pipeline, build-with-agent-deploy-as-code, agentic pitfalls, market sizing
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-22
+tags: [deployment, agentic-workflows, production, deterministic]
+related: [agentic_workflows_patterns.md, claude_code_agent_teams.md]
 ---
 
 ## Three Waves of AI Automation

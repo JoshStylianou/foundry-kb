@@ -1,12 +1,13 @@
 ---
-title: Proactive AI Advisory — Timing, Framing, and Competence Threat
-domain: ai_and_agents
+name: Proactive AI Advisory — Timing, Framing, and Competence Threat
+description: Three-tier advisory model, proactive opportunity detection, competence threat mitigation, task boundary timing
 type: pattern
+domain: ai_and_agents
 source: research_synthesis
 confidence: high
 date_added: 2026-03-22
 date_verified: 2026-03-22
-tags: proactive AI, advisory patterns, UX, competence threat, task boundaries, agent design
+tags: [proactive-ai, advisory-patterns, ux, competence-threat, task-boundaries, agent-design]
 related: [claude_code_context_management.md]
 ---
 

@@ -2,9 +2,12 @@
 name: Terminal AI Multi-Model Workflows
 description: Multi-AI terminal setup, context file syncing across models, session closer agent, output styles, Open Code
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-22
+tags: [multi-model, gemini, openai, terminal, context-sharing]
+related: [claude_code_advanced_workflows.md]
 ---
 
 ## Multi-AI Terminal Pattern

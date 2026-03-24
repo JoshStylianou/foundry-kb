@@ -2,10 +2,13 @@
 name: Claude Code Skill Architecture
 description: Skill types, six-step build framework, file structure, activation, global vs project, debugging, advanced front matter
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
 date_updated: 2026-03-24
+tags: [skills, claude-code, architecture, front-matter, evals]
+related: [claude_code_self_improving_skills.md, claude_code_advanced_workflows.md]
 ---
 
 ## What Skills Are

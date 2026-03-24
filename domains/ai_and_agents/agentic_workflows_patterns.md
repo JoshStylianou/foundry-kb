@@ -2,9 +2,12 @@
 name: Agentic Workflows Patterns
 description: WAT framework, self-healing boundaries, four key shifts from traditional automation, A2A protocol
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
+tags: [agentic-workflows, agent-patterns, orchestration, error-handling]
+related: [agentic_deployment_patterns.md, claude_code_agent_teams.md]
 ---
 
 ## WAT Framework

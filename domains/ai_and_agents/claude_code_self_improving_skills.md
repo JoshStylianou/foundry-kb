@@ -2,10 +2,13 @@
 name: Claude Code Self-Improving Skills
 description: Auto-research loops, binary assertions, Skills 2.0 evals with HTML reports, A/B testing, feedback cycle, wrap-up learnings
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
 date_updated: 2026-03-24
+tags: [skills, evals, self-improving, qa, assertions]
+related: [claude_code_skill_architecture.md]
 ---
 
 ## The Pattern: Karpathy's Auto-Research Loop Applied to Skills

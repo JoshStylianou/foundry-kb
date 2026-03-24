@@ -1,12 +1,13 @@
 ---
-title: Consulting Agent Architecture — Identity-First vs. Capability-First
-domain: ai_and_agents
+name: Consulting Agent Architecture — Identity-First vs. Capability-First
+description: Six-component operational protocol, three-layer cognitive architecture, consulting vs task agent design patterns
 type: pattern
+domain: ai_and_agents
 source: research_synthesis
 confidence: high
 date_added: 2026-03-22
 date_verified: 2026-03-22
-tags: agent architecture, consulting agent, system prompt, expert persona, operational protocol method, nurture-first development
+tags: [agent-architecture, consulting-agent, system-prompt, expert-persona, operational-protocol, nurture-first]
 related: [claude_code_agent_teams.md, claude_code_skill_architecture.md, proactive_ai_advisory_patterns.md]
 ---
 

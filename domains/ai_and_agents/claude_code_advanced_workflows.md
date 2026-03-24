@@ -2,9 +2,12 @@
 name: Claude Code Advanced Workflows
 description: Worktrees for parallel feature branches, community frameworks (GSD, BMAD), and AI dev mindset patterns
 type: insight
+domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcript (Chase AI Plus, "15 Claude Code Tips")
 confidence: high
 date_added: 2026-03-22
+tags: [claude-code, workflows, subagents, hooks, mcp]
+related: [claude_code_practical_tips.md, claude_code_agent_teams.md, claude_code_skill_architecture.md]
 ---
 
 ## Worktrees — Parallel Feature Development

@@ -1,12 +1,13 @@
 ---
-title: Identity-First Agent Prompt Design
-domain: meta_learning
+name: Identity-First Agent Prompt Design
+description: Identity-first vs capability-first prompt structure for judgment-based agents, with evidence and anti-patterns
 type: pattern
+domain: meta_learning
 source: ai_consultant_agent_architecture
 confidence: high
 date_added: 2026-03-22
 date_verified: 2026-03-22
-tags: agent design, system prompts, consulting agents, identity-first, prompt architecture
+tags: [agent-design, system-prompts, consulting-agents, identity-first, prompt-architecture]
 related: [consulting_agent_architecture.md, proactive_ai_advisory_patterns.md]
 ---
 
