@@ -10,9 +10,17 @@ Run `git -C ~/.claude/knowledge/foundry pull --ff-only origin master 2>/dev/null
 
 Read `~/.claude/knowledge/foundry/daily_briefs/latest.md` if it exists. If updated today, present the key items.
 
-## Step 3: Check KB Health
+## Step 3: System Health Check
 
 Scan `~/.claude/knowledge/foundry/INDEX.md` for entry count, last update, any entries needing verification.
+
+Also run a quick integrity check (silently — only surface problems):
+- Does INDEX.md entry count match actual files in domains/?
+- Are there any KB entries with `confidence: medium` or lower that have been sitting for 7+ days without promotion or removal?
+- Did the last research trigger run successfully? (Check if latest.md was updated recently. If it's stale by 2+ days, flag it.)
+- Are all file paths in CLAUDE.md still valid?
+
+If any check fails, include it in the opening as a health warning. If all pass, say nothing — don't report good health, only problems.
 
 ## Step 4: Check Pending Items
 
