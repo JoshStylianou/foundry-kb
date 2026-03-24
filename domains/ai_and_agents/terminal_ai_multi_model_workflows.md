@@ -6,6 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-22
+date_verified: 2026-03-24
 tags: [multi-model, gemini, openai, terminal, context-sharing]
 related: [claude_code_advanced_workflows.md]
 ---
@@ -16,11 +17,11 @@ Run Claude Code, Gemini CLI, and OpenAI Codex in the **same project directory** 
 
 **Why this works:** Different models have different strengths.
 
-| Tool | Best For |
-|------|----------|
-| Claude Code | Deep implementation, complex reasoning, multi-file changes |
-| Gemini CLI | Web access (sites that block Claude), alternative reasoning, large context |
-| OpenAI Codex | Code analysis, review, second-opinion on architecture |
+| Tool | Best For | Status (March 2026) |
+|------|----------|---------------------|
+| Claude Code | Deep implementation, complex reasoning, multi-file changes | Primary tool |
+| Gemini CLI | Web access (sites that block Claude), alternative reasoning, large context | v0.34.0, weekly releases, Google-backed |
+| OpenCode | Any-model support (75+ providers), session sharing, model switching mid-conversation | v1.3.0, 129k stars, leading OSS alternative |
 
 **The key:** They don't need to talk to each other. Shared `.md` files in the project root act as the coordination layer.
 
@@ -57,13 +58,16 @@ A dedicated agent that runs at the **end of each work session**. Solves the "I f
 - Switch between them during a session (e.g., "concise" for quick tasks, "detailed" for architecture decisions)
 - Useful when the same agent serves different modes of work
 
-## Open Code
+## OpenCode
 
-Open-source alternative to Claude Code CLI. Key differences:
+Leading open-source alternative to Claude Code. v1.3.0 current, 129k GitHub stars, 10.5k commits.
 
-- Supports **any model**: local via Ollama, Grok (free), Claude via Pro subscription
+- Supports **75+ AI providers**: local via Ollama, Claude, GPT, Gemini, Grok, and more
 - **Session sharing via URL** — send someone a link to your agent session
 - **Model switching mid-conversation** — start with a cheap model, escalate to a powerful one when needed
 - Same terminal-native workflow as Claude Code
+- Built in Go with TUI
 
-**When to consider:** When you want local models for privacy/cost, or need to use a model Claude Code doesn't support.
+**Note:** Anthropic blocked OpenCode's OAuth access in January 2026 — direct API key still works. Indicates Anthropic views it as a competitive threat.
+
+**When to consider:** When you want local models for privacy/cost, multi-provider flexibility, or need to use a model Claude Code doesn't support.

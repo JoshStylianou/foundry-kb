@@ -6,6 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcript (Chase AI Plus, "15 Claude Code Tips")
 confidence: high
 date_added: 2026-03-22
+date_verified: 2026-03-24
 tags: [claude-code, workflows, subagents, hooks, mcp]
 related: [claude_code_practical_tips.md, claude_code_agent_teams.md, claude_code_skill_architecture.md]
 ---
@@ -29,13 +30,21 @@ Worktrees let you run multiple Claude Code instances on **separate git branches*
 
 ## Community Frameworks (GSD, BMAD)
 
-Frameworks are community-built "mods" that change how Claude Code approaches problems. They layer on top of Claude Code's native behaviour — it's still Claude doing everything, but with modified logic for planning, sub-agent usage, and context management.
+Frameworks that layer on top of Claude Code's native behaviour — modified logic for planning, sub-agent usage, and context management. Both have evolved significantly since launch.
 
-**Examples:**
-- **GSD (Get Stuff Done)** — Praised for context window management and sub-agent orchestration patterns
-- **BMAD** — Alternative framework with its own approach to project structuring
+**GSD (Get Stuff Done)** — v2 is now a standalone CLI built on the Pi SDK, no longer just prompt injection.
+- 31k+ stars (original) + 3k stars (GSD-2), v2.42.0 current
+- Manages context windows, sessions, git branches, cost/token tracking, stuck-loop detection, crash recovery
+- Supports three runtimes: Claude Code, OpenCode, and Gemini CLI
+- Used by engineers at Amazon and Google
 
-**Assessment:** Frameworks are personal preference. They can help with complex projects but add overhead. Evaluate whether the framework's approach actually improves on Claude Code's native behaviour for your specific workflow before adopting.
+**BMAD (Breakthrough Method for Agile AI-Driven Development)** — Full agile methodology, Claude Code-native.
+- 42.1k stars, 130 contributors, v6.2.1 (updated March 24, 2026)
+- 21 specialised agents, 50+ guided workflows
+- v6 adapted to Claude Code's native features with token-usage optimisations
+- Migrating from custom workflow.yaml to Claude Code's native SKILL.md format
+
+**Assessment:** Both are serious tools with large communities, not hobby projects. GSD focuses on execution engine (context rot prevention, multi-runtime). BMAD focuses on full development methodology (agile process, agent team orchestration). Evaluate based on whether you need an execution wrapper (GSD) or a methodology framework (BMAD).
 
 ## AI Dev Mindset
 

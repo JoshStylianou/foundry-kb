@@ -6,20 +6,22 @@ domain: business_operations
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
+date_verified: 2026-03-24
 tags: [sales, agentic-workflows, consulting, client-facing]
 related: [agentic_workflows_patterns.md, agentic_deployment_patterns.md]
 ---
 
-## Market Size
+## Market Size (verified March 2026)
 
-| Year | Market Size | Source Context |
-|------|------------|----------------|
-| 2025 | $8B | AI agent market |
-| 2030 | $40-50B projected | ~5-6x growth |
+| Year | Market Size | Source |
+|------|------------|--------|
+| 2025 | $7-8B (actual) | MarketsandMarkets, Grand View Research, Market.us |
+| 2030 | $47-53B (consensus) | Capgemini/Statista, MarketsandMarkets |
 
-Enterprise adoption trajectory:
-- **2026:** 25% of enterprises deploying agentic pilots
-- **2027:** 50% of enterprises deploying agentic pilots
+- **CAGR: 43-46%** — ~7x growth over 5 years
+- Enterprise adoption trajectory:
+  - **2026:** 25% of enterprises deploying agentic pilots
+  - **2027:** 50% of enterprises deploying agentic pilots
 
 ## Positioning: Doctor, Not Pharmacist
 

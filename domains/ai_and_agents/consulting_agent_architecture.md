@@ -46,6 +46,8 @@ Key insight: domain expertise accumulates through conversation and periodic cons
 
 ## Five Factors That Make an Agent Feel Like a Domain Expert
 
+> For the detailed identity-first vs capability-first prompt design pattern, see `pattern-identity-first-agent-design.md`.
+
 1. Specific frameworks applied by default, not general knowledge
 2. Opinionated recommendations, not option lists
 3. Challenge before execute — question the premise

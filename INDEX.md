@@ -78,4 +78,4 @@ These topics are monitored daily by the autonomous research loop. Updated by kb-
 - **Conflicts flagged:** 0
 - **Last autonomous research run:** never
 - **Last Josh input ingestion:** 2026-03-24
-- **Last confidence audit:** never
+- **Last confidence audit:** 2026-03-24 (full audit — all citations verified, market data corrected, tool status updated)

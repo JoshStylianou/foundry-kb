@@ -6,6 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-22
+date_verified: 2026-03-24
 tags: [deployment, agentic-workflows, production, deterministic]
 related: [agentic_workflows_patterns.md, claude_code_agent_teams.md]
 ---
@@ -53,9 +54,15 @@ Two failure modes:
 
 **Fix:** Explicit scope in the prompt. State what the output should look like (script vs service vs library). Constrain complexity upfront.
 
-## Market Data (2024–2034)
+## Market Data (verified March 2026)
 
-- Agentic AI market: **$5B in 2024**, projected **$200B by 2034** (40x growth)
+| Year | Market Size | Source |
+|------|------------|--------|
+| 2024 | ~$2.6B (enterprise segment) | Grand View Research |
+| 2025 | $7-8B | MarketsandMarkets, Grand View, Market.us |
+| 2030 | $47-53B (consensus) | Capgemini/Statista, MarketsandMarkets |
+
+- **CAGR: 43-46%** depending on scope definition
 - **96% of enterprises** expanding agentic AI usage
 - By **2028**, one-third of enterprise software will have agentic AI built in
-- Implication: building agentic workflow capability now is positioning for a market that barely exists yet but will be massive
+- Implication: building agentic workflow capability now is positioning for a market growing at ~45% annually with clear enterprise adoption momentum

@@ -6,6 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
+date_verified: 2026-03-24
 tags: [agentic-workflows, agent-patterns, orchestration, error-handling]
 related: [agentic_deployment_patterns.md, claude_code_agent_teams.md]
 ---
@@ -36,4 +37,10 @@ related: [agentic_deployment_patterns.md, claude_code_agent_teams.md]
 
 ## A2A Protocol
 
-Google's Agent-to-Agent protocol (announced April 2025) enables standardised agent-to-agent communication. Allows agents built on different platforms to discover each other's capabilities and collaborate. Worth monitoring as it matures — potential foundation for cross-platform agent teams.
+Google's Agent-to-Agent protocol. Announced April 2025 with 50+ partners (Salesforce, SAP, ServiceNow, PayPal). Contributed to the Linux Foundation June 2025 for vendor-neutral governance. **GA v1.0.0 released March 12, 2026.**
+
+- SDKs: Python, Go, JavaScript, Java, .NET
+- 22.8k GitHub stars, 146 contributors
+- Enables standardised agent-to-agent communication across platforms — agents discover each other's capabilities and collaborate regardless of framework
+
+**Status:** No longer speculative. This is an emerging industry standard with real adoption. Relevant when designing cross-platform agent architectures or recommending interoperability patterns to clients.
