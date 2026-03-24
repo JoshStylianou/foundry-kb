@@ -72,6 +72,7 @@ Other models are called as tools, never as orchestrators. Claude stays in contro
 ### Claude — ACTIVE
 - **Endpoint:** Anthropic API / Claude Code native
 - **Models:** Opus 4.6 (reasoning, 1M), Sonnet 4.6 (balanced, 1M), Haiku 4.5 (fast/cheap)
+- **Pricing:** Sonnet $3/$15 per M tokens, Opus $5/$25 per M tokens. **No surcharge for >200K context** as of 2026-03-13 — standard rates apply up to full 1M window. Competitors still charge 2x past 200-272K.
 - **Status:** Primary model for all Foundry operations
 
 ## When to Add a New Model
@@ -90,3 +91,4 @@ Only add to this map when ALL of these are true:
 | 2026-03-24 | Perplexity + Gemini verified live — pricing, models, YouTube capability confirmed | Stark + research agents |
 | 2026-03-24 | GWS CLI authenticated (josh@tntgrowth.com) — Drive, Gmail, Calendar, Docs, Sheets | Stark |
 | 2026-03-24 | All integrations live — local MCP servers + trigger enhanced + APIs tested | Stark |
+| 2026-03-24 | Added Claude long-context surcharge removal (2026-03-13) from daily brief signal | Stark |
