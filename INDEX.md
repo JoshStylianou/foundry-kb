@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
 **Last updated:** 2026-03-24
-**Total entries:** 26
+**Total entries:** 29
 **Active research topics:** 5
 
 ---
@@ -16,7 +16,7 @@ Agents: read this file before starting any task. Navigate by domain. Do not scan
 
 | Domain | Description | Entry Count | Last Updated |
 |--------|-------------|-------------|--------------|
-| [ai_and_agents](domains/ai_and_agents/) | AI models, agent architectures, prompt engineering, Claude API, MCP, automation tools | 20 | 2026-03-24 |
+| [ai_and_agents](domains/ai_and_agents/) | AI models, agent architectures, prompt engineering, Claude API, MCP, automation tools | 23 | 2026-03-24 |
 | [growth_marketing](domains/growth_marketing/) | Performance marketing, paid media, conversion, retention, growth frameworks | 0 | — |
 | [forex_trading](domains/forex_trading/) | Forex markets, signal logic, risk management, trading frameworks, TraiderJ-specific | 0 | — |
 | [business_operations](domains/business_operations/) | Agency ops, team management, SOPs, financial frameworks, AI OS for TNT Growth | 1 | 2026-03-23 |
@@ -27,11 +27,11 @@ Agents: read this file before starting any task. Navigate by domain. Do not scan
 
 ## 5 Most Recent Additions
 
-1. `ai_and_agents/structured_llm_output_via_tool_use.md` — NEW: Force structured LLM output via tool_choice with custom schemas. Eliminates formatting inconsistency, enables post-processing and multi-format rendering.
-2. `ai_and_agents/precomputed_metadata_for_llm_analysis.md` — NEW: Compute timestamps, counts, durations in code before sending to LLM. Prevents hallucinated calculations.
-3. `ai_and_agents/watch_item_escalation_across_brief_cycles.md` — NEW: Stateful watch items with automatic escalation across recurring LLM brief runs.
-4. `ai_and_agents/channel_tier_classification_for_briefing.md` — NEW: Config-driven channel tiering (A-G) to control LLM analysis depth and brief allocation.
-5. `ai_and_agents/brief_windows_calibrated_by_type.md` — NEW: Per-brief-type lookback windows, message limits, and LLM instructions calibrated to timezone and cadence.
+1. `ai_and_agents/claude_computer_use_and_dispatch.md` — NEW: Claude GUI control as fallback + Dispatch async phone-to-desktop delegation. Research preview, macOS only.
+2. `ai_and_agents/claude_api_search_code_execution_ga.md` — NEW: Web search, code execution, structured outputs GA. No beta headers, code execution free with search/fetch.
+3. `ai_and_agents/microsoft_agent_framework_replaces_autogen.md` — NEW: AutoGen maintenance mode, replaced by unified Agent Framework SDK (1.0 GA Q1 2026).
+4. `ai_and_agents/claude_code_agent_teams.md` — UPDATED: Added key decision rule for when to use teams vs sub-agents (mid-task coordination is the distinguishing factor).
+5. `ai_and_agents/structured_llm_output_via_tool_use.md` — Force structured LLM output via tool_choice with custom schemas.
 
 *Also added in this batch (Slack EA production patterns):*
 - `ai_and_agents/leadership_domain_sectioned_briefs.md` — Multi-stakeholder briefs with per-domain sections and cross-functional CEO summary
@@ -72,7 +72,7 @@ These topics are monitored daily by the autonomous research loop. Updated by kb-
 
 ## KB Health
 
-- **Confidence distribution:** 26 high / 0 medium / 0 low / 0 unverified
+- **Confidence distribution:** 29 high / 0 medium / 0 low / 0 unverified
 - **Entries needing verification:** 0
 - **Entries due for re-verification:** 0
 - **Conflicts flagged:** 0

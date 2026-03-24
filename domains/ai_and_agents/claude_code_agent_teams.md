@@ -7,6 +7,7 @@ source: AI Learning Knowledge Base — YouTube transcripts
 confidence: high
 date_added: 2026-03-21
 date_updated: 2026-03-24
+source_updated: Anthropic / SitePoint, March 2026
 tags: [agent-teams, multi-agent, claude-code, orchestration]
 related: [agentic_workflows_patterns.md, claude_code_advanced_workflows.md]
 ---
@@ -29,6 +30,10 @@ Effective agent team prompts follow this structure:
 3. **Per-agent definition** — role, responsibilities, specific files to own, who to message when done
 4. **Inter-agent messaging** — explicit directives: "when done, message the QA agent" / "wait for backend dev's message"
 5. **Final deliverables** — what the main agent should collect and present
+
+## Key Decision Rule
+
+Use Agent Teams when agents need to **coordinate during execution** — sharing discoveries, reacting to each other's output, sending work back for revision mid-task. Use sub-agents when you just need independent results reported back at the end. The distinguishing factor is mid-task communication, not parallelism.
 
 ## When to Use / When Not To
 
