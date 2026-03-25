@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
-**Last updated:** 2026-03-24
-**Total entries:** 29
+**Last updated:** 2026-03-25
+**Total entries:** 31
 **Active research topics:** 5
 
 ---
@@ -16,7 +16,7 @@ Agents: read this file before starting any task. Navigate by domain. Do not scan
 
 | Domain | Description | Entry Count | Last Updated |
 |--------|-------------|-------------|--------------|
-| [ai_and_agents](domains/ai_and_agents/) | AI models, agent architectures, prompt engineering, Claude API, MCP, automation tools | 23 | 2026-03-24 |
+| [ai_and_agents](domains/ai_and_agents/) | AI models, agent architectures, prompt engineering, Claude API, MCP, automation tools | 25 | 2026-03-25 |
 | [growth_marketing](domains/growth_marketing/) | Performance marketing, paid media, conversion, retention, growth frameworks | 0 | — |
 | [forex_trading](domains/forex_trading/) | Forex markets, signal logic, risk management, trading frameworks, TraiderJ-specific | 0 | — |
 | [business_operations](domains/business_operations/) | Agency ops, team management, SOPs, financial frameworks, AI OS for TNT Growth | 1 | 2026-03-23 |
@@ -27,11 +27,11 @@ Agents: read this file before starting any task. Navigate by domain. Do not scan
 
 ## 5 Most Recent Additions
 
-1. `ai_and_agents/claude_computer_use_and_dispatch.md` — NEW: Claude GUI control as fallback + Dispatch async phone-to-desktop delegation. Research preview, macOS only.
-2. `ai_and_agents/claude_api_search_code_execution_ga.md` — NEW: Web search, code execution, structured outputs GA. No beta headers, code execution free with search/fetch.
-3. `ai_and_agents/microsoft_agent_framework_replaces_autogen.md` — NEW: AutoGen maintenance mode, replaced by unified Agent Framework SDK (1.0 GA Q1 2026).
-4. `ai_and_agents/claude_code_agent_teams.md` — UPDATED: Added key decision rule for when to use teams vs sub-agents (mid-task coordination is the distinguishing factor).
-5. `ai_and_agents/structured_llm_output_via_tool_use.md` — Force structured LLM output via tool_choice with custom schemas.
+1. `ai_and_agents/shift_based_handoff_for_sustained_autonomous_work.md` — NEW: For tasks beyond one session, use bounded shifts with handoff artifacts. VendingBench shows models degrade over sustained operation.
+2. `ai_and_agents/augmentation_layers_outperform_replacements.md` — NEW (first entry in new pattern format): AI layers on existing systems beat full replacements — 23% better CPA at 91% reach across 892 accounts.
+3. `ai_and_agents/claude_computer_use_and_dispatch.md` — Claude GUI control as fallback + Dispatch async phone-to-desktop delegation. Research preview, macOS only.
+4. `ai_and_agents/claude_api_search_code_execution_ga.md` — Web search, code execution, structured outputs GA. No beta headers, code execution free with search/fetch.
+5. `ai_and_agents/microsoft_agent_framework_replaces_autogen.md` — AutoGen maintenance mode, replaced by unified Agent Framework SDK (1.0 GA Q1 2026).
 
 *Also added in this batch (Slack EA production patterns):*
 - `ai_and_agents/leadership_domain_sectioned_briefs.md` — Multi-stakeholder briefs with per-domain sections and cross-functional CEO summary
@@ -45,7 +45,7 @@ Agents: read this file before starting any task. Navigate by domain. Do not scan
 
 ## Highest Confidence Entries by Domain
 
-All 26 entries currently rated **high confidence** (sourced from structured video transcript analysis, research synthesis, official documentation, and first-party implementation).
+29 entries rated **high confidence**, 2 rated **medium confidence** (new pattern-format entries pending full verification).
 
 ---
 
@@ -72,10 +72,10 @@ These topics are monitored daily by the autonomous research loop. Updated by kb-
 
 ## KB Health
 
-- **Confidence distribution:** 29 high / 0 medium / 0 low / 0 unverified
+- **Confidence distribution:** 29 high / 2 medium / 0 low / 0 unverified
 - **Entries needing verification:** 0
 - **Entries due for re-verification:** 0
 - **Conflicts flagged:** 0
 - **Last autonomous research run:** never
-- **Last Josh input ingestion:** 2026-03-24
+- **Last Josh input ingestion:** 2026-03-25
 - **Last confidence audit:** 2026-03-24 (full audit — all citations verified, market data corrected, tool status updated)

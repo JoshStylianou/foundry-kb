@@ -8,10 +8,24 @@ Run `git -C ~/.claude/knowledge/foundry pull --ff-only origin master 2>/dev/null
 
 ## Step 2: Read Daily Brief from Slack
 
-Use the Slack MCP to read the latest messages from #foundry-briefs (channel ID: C0ANAU3RR1R). Look for the most recent "Foundry Daily Brief" message. Note:
+**First, fetch the Slack MCP tool schema.** Slack MCP tools are deferred and may not be in the initial tool list. Run:
+```
+ToolSearch: "select:mcp__claude_ai_Slack__slack_read_channel" (max_results: 1)
+```
+If this returns no results, the MCP server hasn't connected yet. In that case:
+1. Include the other protocol steps (KB sync, health check, pending items) in your first response
+2. Note "Slack MCP loading — will pull brief on next turn" in the opening
+3. On Josh's first reply (when MCP tools will be available), immediately fetch the schema and pull the brief before responding to anything else
+
+**Once the tool is available**, read the latest messages from #foundry-briefs (channel ID: C0ANAU3RR1R). Look for the most recent "Foundry Daily Brief" message. Note:
 - **KB signals** — these need Josh's approval before becoming entries
 - **ACTION signals** — flag for Josh's awareness
 - **WATCH signals** — note for context only
+
+**Deduplication (mandatory):** Before presenting KB signals to Josh, cross-reference each signal against existing KB entries in INDEX.md. For each signal:
+- If an entry already exists in the KB covering this topic: **skip it silently** (the trigger's dedup should have caught it, but this is the safety net)
+- If an entry exists but the signal contains genuinely new information: present it as an **update** to the existing entry, not a new signal
+- Only present signals where the KB has no existing coverage
 
 If no brief exists for today, check if the trigger is still enabled and flag it.
 
