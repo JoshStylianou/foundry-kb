@@ -4,7 +4,7 @@ description: Six-component operational protocol, three-layer cognitive architect
 type: pattern
 domain: ai_and_agents
 source: research_synthesis
-confidence: high
+confidence: medium-high
 date_added: 2026-03-22
 date_verified: 2026-03-22
 tags: [agent-architecture, consulting-agent, system-prompt, expert-persona, operational-protocol, nurture-first]

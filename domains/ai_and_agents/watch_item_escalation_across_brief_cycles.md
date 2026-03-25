@@ -4,7 +4,7 @@ description: Stateful pattern for tracking watch items between LLM brief runs, w
 type: pattern
 domain: ai_and_agents
 source: First-party implementation — Slack EA project (production)
-confidence: high
+confidence: medium-high
 date_added: 2026-03-24
 tags: [briefing, llm-patterns, state-management, escalation, signal-detection, automation]
 related: [structured_llm_output_via_tool_use.md, precomputed_metadata_for_llm_analysis.md]

@@ -3,7 +3,7 @@ name: Google AI Max — URL + KPI = automated 5-channel campaign
 description: Give AI Max a URL and target ROAS; it deploys across Search, Discover, Gmail, YouTube Shorts, and Maps within 24h. +18% unique query categories, +19% conversions in Google data.
 domain: ai_and_agents
 source: yellowjackmedia.com, Foundry daily brief 2026-03-25
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [google, ai-max, multichannel, performance-marketing, automation, tnt-growth]

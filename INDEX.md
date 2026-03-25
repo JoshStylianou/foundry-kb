@@ -1,90 +1,81 @@
 # The Foundry Knowledge Base — Master Index
 
 **Last updated:** 2026-03-25
-**Total entries:** 43
+**Total entries:** 39 active (13 Core + 26 Reference) | 2 archived
 **Active research topics:** 5
 
 ---
 
-## How to Use This Index
+## How This Index Works
 
-Agents: read this file before starting any task. Navigate by domain. Do not scan all files — use the index to find what is relevant, then read only those entries.
+**Two-tier architecture:**
+- **Core** — Transferable principles proven across multiple contexts. Listed below. Always visible to agents.
+- **Reference** — Valid but situational knowledge. Listed in each domain's `DOMAIN_INDEX.md`. Agents load these only when working in that domain.
 
----
-
-## Domains
-
-| Domain | Description | Entry Count | Last Updated |
-|--------|-------------|-------------|--------------|
-| [ai_and_agents](domains/ai_and_agents/) | AI models, agent architectures, prompt engineering, Claude API, MCP, automation tools | 34 | 2026-03-25 |
-| [growth_marketing](domains/growth_marketing/) | Performance marketing, paid media, conversion, retention, growth frameworks | 0 | — |
-| [forex_trading](domains/forex_trading/) | Forex markets, signal logic, risk management, trading frameworks, TraiderJ-specific | 0 | — |
-| [business_operations](domains/business_operations/) | Agency ops, team management, SOPs, financial frameworks, AI OS for TNT Growth | 4 | 2026-03-25 |
-| [tools_and_software](domains/tools_and_software/) | Specific tools, APIs, integrations — what works, what doesn't, configuration patterns | 4 | 2026-03-24 |
-| [meta_learning](domains/meta_learning/) | Knowledge about The Foundry itself — how to run it better, pipeline improvements | 1 | 2026-03-23 |
+**Promotion/demotion:** Reference entries pulled 3+ times across projects promote to Core. Core entries unreferenced for 60 days get reviewed for demotion.
 
 ---
 
-## 5 Most Recent Additions
+## Core Patterns (13 entries)
 
-1. `ai_and_agents/wat_framework_workflows_agent_tools.md` — Three-layer separation: markdown SOPs, AI coordinator, tool scripts. Non-technical people modify "what" without touching "how."
-2. `business_operations/abstraction_ladder_agency_to_saas.md` — Agency → productized → info product → SaaS. Saraev: $25K/mo to $400K/mo documented.
-3. `ai_and_agents/skills_layer_makes_mcp_reliable.md` — Raw MCP access insufficient; structured skills layer makes integration production-reliable. n8n-skills: 7 skills, 525+ nodes.
-4. `ai_and_agents/five_component_prompt_formula_workflows.md` — Trigger + Data Source + Operations + Output + Constraints = reliable AI-generated workflows.
-5. `ai_and_agents/multi_tool_terminal_orchestration.md` — Run Claude Code + Gemini CLI in separate panes. Combine free research with paid agentic execution.
+These are the highest-value, most transferable patterns in the KB. Every agent should know these exist.
 
-*Also added this batch (video processing + daily brief signals):*
-- `business_operations/identification_over_implementation_pricing.md` — $5K-$50K engagements won by scoping, not building. Build speed is table stakes.
-- `business_operations/inverse_price_demand_capped_communities.md` — Raising prices with capped supply can increase signups. Saraev: $28→$128/mo, filled faster.
-- `ai_and_agents/claude_1m_context_flat_pricing.md` — Long-context surcharge removed. RAG is now a quality decision, not a cost decision.
-- `ai_and_agents/meta_andromeda_creative_is_targeting.md` — Entity ID fingerprinting: conceptual diversity > ad set count. Rewrites TNT client account structure.
-- `ai_and_agents/google_ai_max_url_to_multichannel.md` — URL + target ROAS = auto 5-channel campaign. +18% queries, +19% conversions.
-- `ai_and_agents/mcp_collapses_tool_ui_into_output_format.md` — MCP access to a tool collapses its UI into an output format. Skill bottleneck shifts to AI direction.
-- `ai_and_agents/async_agent_delegation_via_mcp_event_bridge.md` — Persistent sessions accessible from any channel via MCP bridges. Decouples execution from terminal.
-
-*Also added in this batch (Slack EA production patterns):*
-- `ai_and_agents/leadership_domain_sectioned_briefs.md` — Multi-stakeholder briefs with per-domain sections and cross-functional CEO summary
-- `tools_and_software/slack_reaction_aware_signal_detection.md` — Emoji reactions from internal team count as acknowledgement, reducing false positive alerts
-- `tools_and_software/team_roster_dynamic_loading_with_fallback.md` — API roster loading with hardcoded fallback for internal vs external classification
-- `tools_and_software/slack_mrkdwn_clickable_channel_links.md` — channelMap + `<#ID|name>` format for clickable channel references in Slack messages
-
-*Previous additions: `tools_and_software/github_actions_external_cron_scheduling.md`, `ai_and_agents/model_capabilities_map.md`, `ai_and_agents/claude_code_loops_and_scheduling.md`, `ai_and_agents/claude_code_agent_teams.md`, `ai_and_agents/claude_code_skill_architecture.md`, `ai_and_agents/claude_code_self_improving_skills.md`, `meta_learning/pattern-identity-first-agent-design.md`, `ai_and_agents/knowledge_cascade_pattern.md`, `ai_and_agents/consulting_agent_architecture.md`, `ai_and_agents/proactive_ai_advisory_patterns.md`, `ai_and_agents/terminal_ai_multi_model_workflows.md`, `ai_and_agents/claude_code_context_management.md`, `ai_and_agents/agentic_workflows_patterns.md`, `ai_and_agents/claude_code_practical_tips.md`, `ai_and_agents/claude_code_advanced_workflows.md`, `business_operations/selling_agentic_workflows.md`*
+| Entry | Confidence | Domain | Pattern |
+|-------|-----------|--------|---------|
+| [augmentation_layers_outperform_replacements](domains/ai_and_agents/augmentation_layers_outperform_replacements.md) | high | ai_and_agents | AI layers on existing systems beat full replacements — 23% better CPA at 91% reach across 892 accounts |
+| [precomputed_metadata_for_llm_analysis](domains/ai_and_agents/precomputed_metadata_for_llm_analysis.md) | high | ai_and_agents | Pre-compute what LLMs can't do (math, counts, dates) before sending to context. Division of labour between compute and reasoning. |
+| [proactive_ai_advisory_patterns](domains/ai_and_agents/proactive_ai_advisory_patterns.md) | high | ai_and_agents | Three-tier proactive model backed by research — 52% engagement, 62% dismissal rates. Competence threat is real. |
+| [structured_llm_output_via_tool_use](domains/ai_and_agents/structured_llm_output_via_tool_use.md) | high | ai_and_agents | tool_choice forces structured output at ~99% consistency vs ~80% for plain prompting. Separate content from presentation. |
+| [github_actions_external_cron_scheduling](domains/tools_and_software/github_actions_external_cron_scheduling.md) | high | tools_and_software | External cron triggers for unreliable built-in schedulers. First-party production-proven pattern. |
+| [agentic_workflows_patterns](domains/ai_and_agents/agentic_workflows_patterns.md) | medium-high | ai_and_agents | WAT framework, self-healing boundaries, four key shifts from traditional automation, A2A protocol |
+| [claude_code_self_improving_skills](domains/ai_and_agents/claude_code_self_improving_skills.md) | medium-high | ai_and_agents | Karpathy auto-research loop applied to skills. Binary assertions > subjective scoring for iteration. |
+| [consulting_agent_architecture](domains/ai_and_agents/consulting_agent_architecture.md) | medium-high | ai_and_agents | Six-component consulting agent protocol. Consulting vs task agent distinction. Three-layer cognitive architecture. |
+| [meta_andromeda_creative_is_targeting](domains/ai_and_agents/meta_andromeda_creative_is_targeting.md) | medium-high | ai_and_agents | Entity ID fingerprinting: conceptual creative diversity IS the targeting mechanism. Rewrites ad account structure. |
+| [skills_layer_makes_mcp_reliable](domains/ai_and_agents/skills_layer_makes_mcp_reliable.md) | medium-high | ai_and_agents | Raw MCP insufficient; structured skills layer makes integration production-reliable. 45min→3min with zero errors. |
+| [watch_item_escalation_across_brief_cycles](domains/ai_and_agents/watch_item_escalation_across_brief_cycles.md) | medium-high | ai_and_agents | Inject prior state as LLM context for temporal reasoning. Escalation logic across cycles. |
+| [shift_based_handoff_for_sustained_autonomous_work](domains/ai_and_agents/shift_based_handoff_for_sustained_autonomous_work.md) | medium | ai_and_agents | Bounded shifts with handoff artifacts > continuous operation. Agents degrade over sustained work. |
+| [pattern-identity-first-agent-design](domains/meta_learning/pattern-identity-first-agent-design.md) | medium-high | meta_learning | Identity-first vs capability-first agent design. Kennedy framework. Identity shapes tool selection. |
 
 ---
 
-## Highest Confidence Entries by Domain
+## Domain Reference Libraries
 
-41 entries rated **high confidence**, 2 rated **medium confidence** (new pattern-format entries pending full verification).
+For situational, tool-specific, or project-specific knowledge, see each domain's index:
+
+| Domain | Reference Entries | Last Updated | Index |
+|--------|------------------|--------------|-------|
+| [ai_and_agents](domains/ai_and_agents/) | 19 | 2026-03-25 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
+| [business_operations](domains/business_operations/) | 4 | 2026-03-25 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
+| [tools_and_software](domains/tools_and_software/) | 1 | 2026-03-25 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
+| [growth_marketing](domains/growth_marketing/) | 0 | — | — |
+| [forex_trading](domains/forex_trading/) | 0 | — | — |
+
+---
+
+## Confidence Scale
+
+| Rating | Meaning | Count |
+|--------|---------|-------|
+| **high** | Multiple independent sources, quantified evidence, verified current | 5 |
+| **medium-high** | Solid evidence, single source or landscape may have shifted | 15 |
+| **medium** | Logical with some evidence, not rigorously quantified | 18 |
+| **low-medium** | Thin evidence or single anecdote | 1 |
 
 ---
 
 ## Active Research Topics
 
-These topics are monitored daily by the autonomous research loop. Updated by kb-curator after each research cycle.
-
-1. **AI agent architectures and self-improving systems** — tools, frameworks, patterns for building better agent teams
-2. **Performance marketing and paid media signals** — relevant to TNT Growth's 60 clients
-3. **Forex market signals and AI trading** — relevant to TraiderJ
-4. **Claude API and Anthropic updates** — new capabilities, pricing, context limits, tool use patterns
-5. **Business AI OS implementations** — how other agencies/firms are implementing AI operations at scale
-
----
-
-## Tools Built
-
-| Tool | Type | Built | Status |
-|------|------|-------|--------|
-| [slack-ea-brief](tools_built/slack-ea-brief/) | Claude Code slash command | 2026-03-22 | Deployed, untested in production |
-| [slack-ea-github-actions](tools_built/slack-ea-github-actions/) | Node.js + GitHub Actions | 2026-03-22 | Built, ready to deploy |
+1. **AI agent architectures and self-improving systems**
+2. **Performance marketing and paid media signals** (TNT Growth)
+3. **Forex market signals and AI trading** (TraiderJ)
+4. **Claude API and Anthropic updates**
+5. **Business AI OS implementations**
 
 ---
 
 ## KB Health
 
-- **Confidence distribution:** 41 high / 2 medium / 0 low / 0 unverified
-- **Entries needing verification:** 0
-- **Entries due for re-verification:** 0
-- **Conflicts flagged:** 0
-- **Last autonomous research run:** never
+- **Confidence distribution:** 5 high / 15 medium-high / 18 medium / 1 low-medium
+- **Archived entries:** 2 (domains/archive/)
+- **Last confidence audit:** 2026-03-25 (full audit — all 43 entries reassessed, 2 archived, 2 merged)
 - **Last Josh input ingestion:** 2026-03-25
-- **Last confidence audit:** 2026-03-24 (full audit — all citations verified, market data corrected, tool status updated)

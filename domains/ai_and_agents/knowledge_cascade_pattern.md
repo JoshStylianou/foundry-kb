@@ -4,7 +4,7 @@ description: Six-level retrieval hierarchy, knowledge freshness heuristics, dema
 type: framework
 domain: ai_and_agents
 source: synthesis (AI Consultant Agent project)
-confidence: high
+confidence: medium
 date_added: 2026-03-22
 date_verified: 2026-03-22
 tags: [knowledge-management, retrieval-hierarchy, context-budget, advisory-agents, kb-curator]

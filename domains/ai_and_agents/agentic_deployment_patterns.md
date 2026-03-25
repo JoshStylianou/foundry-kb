@@ -4,7 +4,7 @@ description: Three waves of AI automation, trigger.dev deployment pipeline, buil
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
-confidence: high
+confidence: medium
 date_added: 2026-03-22
 date_verified: 2026-03-24
 tags: [deployment, agentic-workflows, production, deterministic]

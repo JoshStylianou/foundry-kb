@@ -3,7 +3,7 @@ name: Skills layer makes MCP integration production-reliable
 description: Raw MCP access to a tool is necessary but insufficient. A structured skills layer (knowledge files teaching the AI correct tool usage) is what prevents repeated mistakes and makes integration production-reliable.
 domain: ai_and_agents
 source: czlonkowski/n8n-skills (3.8K GitHub stars), czlonkowski/n8n-mcp, n8n community, roborhythms.com, Nate Herk
-confidence: high
+confidence: medium-high
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [mcp, skills, reliability, production, n8n, tool-integration]

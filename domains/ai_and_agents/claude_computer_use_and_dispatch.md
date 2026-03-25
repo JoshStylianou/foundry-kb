@@ -4,7 +4,7 @@ description: Claude can autonomously control a Mac GUI as fallback when no API/M
 type: insight
 domain: ai_and_agents
 source: CNBC, 9to5Mac, claude.com/blog, March 24 2026
-confidence: high
+confidence: medium
 date_added: 2026-03-24
 tags: [claude, computer-use, dispatch, gui-automation, async-delegation]
 related: [agentic_workflows_patterns.md, claude_code_agent_teams.md]

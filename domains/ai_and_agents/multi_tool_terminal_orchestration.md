@@ -2,12 +2,12 @@
 name: Multi-tool terminal orchestration across AI coding agents
 description: Run multiple terminal AI tools (Claude Code, Gemini CLI, etc.) in separate panes on the same project. Use one as coordinator to sync context. Combines free capabilities with paid ones.
 domain: ai_and_agents
-source: NetworkChuck "AI in the Terminal" (GitHub repo with 16 docs), youtube.com/@NetworkChuck
-confidence: high
+source: NetworkChuck "AI in the Terminal" (GitHub repo with 16 docs), youtube.com/@NetworkChuck, AI Learning KB YouTube transcripts
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [multi-tool, terminal, claude-code, gemini-cli, orchestration, cost-optimization, opencode]
-related: [terminal_ai_multi_model_workflows.md, claude_code_context_management.md]
+related: [claude_code_context_management.md]
 ---
 
 ## Pattern
@@ -41,3 +41,13 @@ Chuck's daily driver: Claude Code, specifically because of agents.
 - Adds orchestration overhead — only worth it for complex projects
 - Context files can drift between tools if not actively synced
 - Each tool has different strengths: don't use the wrong tool for the job just because it's open in a pane
+
+## Session Closer Agent
+
+A dedicated agent that runs at end of each work session: summarizes accomplishments, updates all context files, commits to git. Solves the "I forgot what I was doing" problem by automating documentation as a session-end routine.
+
+## OpenCode (Open-Source Alternative)
+
+v1.3.0, 129K GitHub stars. Supports 75+ AI providers including local models via Ollama. Key features: model switching mid-conversation, session sharing via URL. Free tier via Grok. Consider when you need local models for privacy/cost or multi-provider flexibility.
+
+Note: Anthropic blocked OpenCode's OAuth access (Jan 2026) — direct API key still works.

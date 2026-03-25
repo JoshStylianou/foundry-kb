@@ -3,7 +3,7 @@ name: Five-component prompt formula for reliable workflow generation
 description: Reliable AI-generated workflows require five explicit components in the prompt — Trigger, Data Source, Operations, Output Destination, Constraints. Vague prompts produce unreliable results.
 domain: ai_and_agents
 source: roborhythms.com, Nate Herk, n8n community demonstrations
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [prompt-engineering, workflows, automation, reliability, n8n, mcp]

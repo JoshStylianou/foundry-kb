@@ -4,7 +4,7 @@ description: Web search, code execution, and structured outputs are GA on Claude
 type: insight
 domain: ai_and_agents
 source: Anthropic release notes + platform changelog, March 2026
-confidence: high
+confidence: medium
 date_added: 2026-03-24
 tags: [claude-api, web-search, code-execution, structured-outputs, ga]
 related: [model_capabilities_map.md, claude_code_practical_tips.md]

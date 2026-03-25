@@ -4,7 +4,7 @@ description: /loop for session-bound recurring prompts, /schedule for persistent
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcript (Nate Herk, "4 Claude Code Updates")
-confidence: high
+confidence: medium
 date_added: 2026-03-24
 tags: [scheduling, automation, cron, loops, remote-triggers]
 related: [claude_code_advanced_workflows.md]

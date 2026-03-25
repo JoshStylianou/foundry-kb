@@ -4,20 +4,22 @@ description: WAT framework, self-healing boundaries, four key shifts from tradit
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
-confidence: high
+confidence: medium-high
 date_added: 2026-03-21
 date_verified: 2026-03-24
 tags: [agentic-workflows, agent-patterns, orchestration, error-handling]
 related: [agentic_deployment_patterns.md, claude_code_agent_teams.md]
 ---
 
-## WAT Framework
+## WAT Framework (Workflows-Agent-Tools)
 
 | Component | What It Is | Example |
 |-----------|-----------|---------|
-| **W**orkflows | Markdown SOPs — the process documented as steps | `skill.md` defining a publishing workflow |
-| **A**gent | Claude Code (or equivalent) — the executor | Reads the SOP, makes decisions, calls tools |
-| **T**ools | Python scripts, APIs, MCP servers — the hands | Script that posts to LinkedIn, fetches analytics |
+| **W**orkflows | Markdown SOPs in `/workflows` folder — objectives, inputs, tools, outputs | `skill.md` defining a publishing workflow |
+| **A**gent | Claude Code (or equivalent) — reads SOPs, selects tools, handles failures | Reads the SOP, makes decisions, calls tools |
+| **T**ools | Python scripts in `/tools` folder, APIs, MCP servers | Script that posts to LinkedIn, fetches analytics |
+
+Each layer is independently editable and testable. Non-technical people can modify workflows (the "what") without touching tools (the "how"). The agent layer is the only part requiring AI capability — workflows and tools are deterministic. (Source: Nate Herk 10hr Claude Code course — entire course structured around WAT framework, requires zero lines of code from user.)
 
 ## The Self-Healing Boundary
 

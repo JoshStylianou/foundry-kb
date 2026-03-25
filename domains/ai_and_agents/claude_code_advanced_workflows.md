@@ -4,7 +4,7 @@ description: Worktrees for parallel feature branches, community frameworks (GSD,
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcript (Chase AI Plus, "15 Claude Code Tips")
-confidence: high
+confidence: medium
 date_added: 2026-03-22
 date_verified: 2026-03-24
 tags: [claude-code, workflows, subagents, hooks, mcp]

@@ -4,7 +4,7 @@ description: Hooks vs Skills vs Slash Commands, Gemini CLI fallback, verificatio
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
-confidence: high
+confidence: medium
 date_added: 2026-03-21
 tags: [claude-code, tips, productivity, workflows]
 related: [claude_code_advanced_workflows.md, claude_code_context_management.md]

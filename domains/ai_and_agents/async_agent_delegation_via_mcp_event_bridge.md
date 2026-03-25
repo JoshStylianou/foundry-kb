@@ -3,7 +3,7 @@ name: Async agent delegation via MCP event bridge
 description: Persistent AI agent sessions accessible from any messaging channel via MCP bridge plugins. Phone instruction → agent picks up task with full local context → replies to same channel. Decouples execution from terminal presence.
 domain: ai_and_agents
 source: VentureBeat, techbuddies.io, marketingagent.blog, Foundry daily brief 2026-03-25
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [mcp, async-delegation, channels, telegram, discord, persistent-sessions, remote-work]

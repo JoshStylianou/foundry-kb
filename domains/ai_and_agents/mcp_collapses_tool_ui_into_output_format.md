@@ -3,7 +3,7 @@ name: MCP integration collapses tool UI into output format
 description: When an AI agent gains MCP-level access to a tool, that tool's configuration UI becomes an output format the AI generates. Bottleneck shifts from "can your team configure the tool" to "can your team direct the AI."
 domain: ai_and_agents
 source: Nate Herk (youtube.com/@nateherk, 550K subs), Simon Scrapes (youtube.com/@simonscrapes, 40K subs), Foundry daily brief 2026-03-25
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [mcp, tool-integration, automation, n8n, skill-shift, agency-model, ui-collapse]

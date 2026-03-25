@@ -4,7 +4,7 @@ description: Market sizing, pricing strategy, positioning framework, and career 
 type: insight
 domain: business_operations
 source: AI Learning Knowledge Base — YouTube transcripts
-confidence: high
+confidence: medium
 date_added: 2026-03-21
 date_verified: 2026-03-24
 tags: [sales, agentic-workflows, consulting, client-facing]

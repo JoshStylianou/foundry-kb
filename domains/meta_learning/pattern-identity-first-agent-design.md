@@ -4,7 +4,7 @@ description: Identity-first vs capability-first prompt structure for judgment-ba
 type: pattern
 domain: meta_learning
 source: ai_consultant_agent_architecture
-confidence: high
+confidence: medium-high
 date_added: 2026-03-22
 date_verified: 2026-03-22
 tags: [agent-design, system-prompts, consulting-agents, identity-first, prompt-architecture]

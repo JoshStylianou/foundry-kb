@@ -4,7 +4,7 @@ description: Skill types, six-step build framework, file structure, activation, 
 type: insight
 domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
-confidence: high
+confidence: medium-high
 date_added: 2026-03-21
 date_updated: 2026-03-24
 tags: [skills, claude-code, architecture, front-matter, evals]

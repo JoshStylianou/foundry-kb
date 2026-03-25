@@ -4,7 +4,7 @@ description: Classify communication channels into priority tiers using name patt
 type: pattern
 domain: ai_and_agents
 source: First-party implementation — Slack EA project (production)
-confidence: high
+confidence: medium-high
 date_added: 2026-03-24
 tags: [briefing, signal-detection, classification, priority, llm-patterns, slack, automation]
 related: [precomputed_metadata_for_llm_analysis.md, leadership_domain_sectioned_briefs.md]

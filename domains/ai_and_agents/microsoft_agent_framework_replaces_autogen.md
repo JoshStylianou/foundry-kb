@@ -4,7 +4,7 @@ description: AutoGen is in maintenance mode — Microsoft merged it with Semanti
 type: insight
 domain: ai_and_agents
 source: lumichats.com, Microsoft official announcements, March 2026
-confidence: high
+confidence: medium-high
 date_added: 2026-03-24
 tags: [microsoft, autogen, semantic-kernel, agent-framework, deprecated]
 related: [agentic_workflows_patterns.md]

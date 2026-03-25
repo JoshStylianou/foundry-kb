@@ -3,7 +3,7 @@ name: Identification > Implementation as pricing lever
 description: The highest-value skill in automation services is identifying which automations to build, not building them. Pricing scales with scope accuracy, not build speed. $5K-$50K engagements won by scoping, not coding.
 domain: business_operations
 source: Nate Herk "Build & Sell with Claude Code" (10hr course), AI Automation Society
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [pricing, consulting, automation-services, value-positioning, discovery, styfinity]

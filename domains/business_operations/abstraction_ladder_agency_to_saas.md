@@ -3,7 +3,7 @@ name: Abstraction Ladder — Agency to Productized Service to Info Product
 description: Each business stage goes up one level of abstraction, multiplying leverage while reducing time dependency. Transition signal is when audience shifts from "how do I use this" to "how do I build what you built."
 domain: business_operations
 source: Nick Saraev (nicksaraev.com/biography, nicksaraev.com/productization-101, youtube.com/@nicksaraev)
-confidence: high
+confidence: medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [business-evolution, agency, productization, info-products, leverage, saas, styfinity]

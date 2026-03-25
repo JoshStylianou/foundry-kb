@@ -4,7 +4,7 @@ description: Living reference — which LLM/API is best for which specific Found
 type: insight
 domain: ai_and_agents
 source: Stark assessment + live API verification (2026-03-24)
-confidence: high
+confidence: medium
 date_added: 2026-03-24
 tags: [multi-model, api, perplexity, gemini, claude, model-selection]
 related: [terminal_ai_multi_model_workflows.md]

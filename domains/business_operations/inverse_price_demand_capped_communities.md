@@ -3,7 +3,7 @@ name: Inverse price-demand in capped community products
 description: In community/info products with constrained supply, raising prices can increase signups when scarcity and perceived value are aligned. Only works with demonstrated demand exceeding supply.
 domain: business_operations
 source: Nick Saraev (nicksaraev.com/biography), MMWM community data
-confidence: high
+confidence: low-medium
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [pricing, community, scarcity, info-products, demand, styfinity]

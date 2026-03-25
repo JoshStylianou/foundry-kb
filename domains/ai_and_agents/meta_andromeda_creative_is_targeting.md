@@ -3,7 +3,7 @@ name: Meta Andromeda — creative diversity IS the targeting mechanism
 description: Andromeda's Entity ID fingerprinting means conceptual diversity earns multiple auction tickets. Old tight-ad-set discipline is counterproductive. 1 campaign, 1-2 broad ad sets, 10-20 conceptually distinct creatives.
 domain: ai_and_agents
 source: billo.app, armadagrowth.com, anchour.com/articles/meta-ads-2026-playbook, Foundry daily briefs 2026-03-24/25
-confidence: high
+confidence: medium-high
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [meta, andromeda, creative-targeting, ad-structure, performance-marketing, tnt-growth]

@@ -3,7 +3,7 @@ name: Claude 1M context window at flat per-token pricing
 description: Long-context surcharge removed on Opus 4.6 and Sonnet 4.6. 200k-1M token requests bill at same rate as small prompts. RAG is now a quality decision, not a cost decision.
 domain: ai_and_agents
 source: releasebot.io/updates/anthropic/claude, Anthropic docs, Foundry daily brief 2026-03-25
-confidence: high
+confidence: medium-high
 date_added: 2026-03-25
 date_verified: 2026-03-25
 tags: [claude, pricing, context-window, 1m-context, rag, cost-modeling, anthropic]

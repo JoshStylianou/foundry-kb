@@ -4,7 +4,7 @@ description: Different brief types need different lookback windows, message limi
 type: pattern
 domain: ai_and_agents
 source: First-party implementation — Slack EA project (production)
-confidence: high
+confidence: medium-high
 date_added: 2026-03-24
 tags: [briefing, llm-patterns, scheduling, configuration, automation, slack]
 related: [structured_llm_output_via_tool_use.md, channel_tier_classification_for_briefing.md, watch_item_escalation_across_brief_cycles.md]

@@ -4,7 +4,7 @@ description: Counting emoji reactions from internal team as acknowledgement to p
 type: pattern
 domain: tools_and_software
 source: First-party implementation — Slack EA project (production)
-confidence: high
+confidence: medium-high
 date_added: 2026-03-24
 tags: [slack, signal-detection, false-positives, reactions, emoji, automation, briefing]
 related: [../ai_and_agents/precomputed_metadata_for_llm_analysis.md]
