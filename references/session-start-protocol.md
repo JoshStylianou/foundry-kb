@@ -1,98 +1,75 @@
 # Session Start Protocol — The Foundry
 
-On every new session in The Foundry, before Josh says anything, execute these steps in order:
+On every new session in The Foundry, execute these steps before Josh speaks.
 
 ## Step 1: Sync KB from Remote
 
-Run `git -C ~/.claude/knowledge/foundry pull --ff-only origin master 2>/dev/null` to pick up any overnight changes. If it fails (no remote, no internet), proceed silently.
+Run `git -C ~/.claude/knowledge/foundry pull --ff-only origin master 2>/dev/null` to pick up overnight changes. If it fails, proceed silently.
 
-## Step 2: Read Daily Brief from Slack
+## Step 2: Load Context (Silent)
 
-**First, fetch the Slack MCP tool schema.** Slack MCP tools are deferred and may not be in the initial tool list. Run:
-```
-ToolSearch: "select:mcp__claude_ai_Slack__slack_read_channel" (max_results: 1)
-```
-If this returns no results, the MCP server hasn't connected yet. In that case:
-1. Include the other protocol steps (KB sync, health check, pending items) in your first response
-2. Note "Slack MCP loading — will pull brief on next turn" in the opening
-3. On Josh's first reply (when MCP tools will be available), immediately fetch the schema and pull the brief before responding to anything else
+Read `~/.claude/knowledge/foundry/INDEX.md` for Core patterns and KB health. Read `~/.claude/memory/MEMORY.md` if not already loaded. Check `~/.claude/knowledge/foundry/research_requests/` for pending items.
 
-**Once the tool is available**, read the latest messages from #foundry-briefs (channel ID: C0ANAU3RR1R). Look for the most recent "Foundry Daily Brief" message. Note:
-- **KB signals** — these need Josh's approval before becoming entries
-- **ACTION signals** — flag for Josh's awareness
-- **WATCH signals** — note for context only
-
-**Deduplication (mandatory):** Before presenting KB signals to Josh, cross-reference each signal against existing KB entries in INDEX.md. For each signal:
-- If an entry already exists in the KB covering this topic: **skip it silently** (the trigger's dedup should have caught it, but this is the safety net)
-- If an entry exists but the signal contains genuinely new information: present it as an **update** to the existing entry, not a new signal
-- Only present signals where the KB has no existing coverage
-
-If no brief exists for today, check if the trigger is still enabled and flag it.
-
-## Step 3: System Health Check
-
-Scan `~/.claude/knowledge/foundry/INDEX.md` for entry count, last update, any entries needing verification.
-
-Also run a quick integrity check (silently — only surface problems):
-- Does INDEX.md entry count match actual files in domains/?
-- Are there any KB entries with `confidence: medium` or lower that have been sitting for 7+ days without promotion or removal?
+Run a quick integrity check (silently — only surface problems):
+- Does INDEX.md Core + Reference total match actual files?
 - Are all file paths in CLAUDE.md still valid?
 
-If any check fails, include it in the opening as a health warning. If all pass, say nothing — don't report good health, only problems.
+If any check fails, include it in the opening as a health warning. If all pass, say nothing.
 
-## Step 4: Check Pending Items
-
-Look for any research requests or flagged items in `~/.claude/knowledge/foundry/research_requests/`.
-
-## Step 5: Present Structured Opening
+## Step 3: Present Opening
 
 Dense, direct, no fluff.
 
-### With KB signals awaiting approval:
+### With pending items:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- STARK │ [model] │ KB: [N] entries │ [count] awaiting approval
+ STARK │ [model] │ KB: [N] entries ([C] Core) │ [status]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**KB signals from today's brief (need your approval):**
-1. [Signal] — [one-line summary]
-2. [Signal] — [one-line summary]
-→ Say "approve all", "approve 1", or "reject 2" etc.
-
-**ACTION items:**
-- [Signal] — [what to do] — [deadline]
 
 [Any health warnings or pending research requests]
 
-What's on your mind?
+What are we building?
 ```
 
-### Clean slate (no brief or no KB signals):
+### Clean slate:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- STARK │ [model] │ KB: [N] entries │ Clean slate
+ STARK │ [model] │ KB: [N] entries ([C] Core) │ Clean slate
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Nothing pending. What are we building?
+What are we building?
 ```
+
+## Daily Brief — On Demand
+
+The daily brief lives in #foundry-briefs. **Do NOT pull it automatically at session start.**
+
+Pull it when:
+- Josh says "brief", "what's pending", "anything from overnight", or similar
+- Josh is making a decision where current signals would be relevant (pull silently and apply)
+- Josh explicitly asks to review KB signals
+
+When pulling the brief:
+1. Fetch Slack MCP schema via ToolSearch if needed
+2. Read latest messages from #foundry-briefs (channel ID: C0ANAU3RR1R)
+3. Deduplicate KB signals against INDEX.md and domain indexes before presenting
+4. Present with the approval protocol below
 
 ## KB Entry Approval Protocol
 
 **Critical rule: Never auto-write KB entries from the daily brief.**
 
 When Josh approves a KB signal:
-1. Write the entry at `confidence: high` (Josh-confirmed)
-2. Update INDEX.md
-3. Push to git
-4. Confirm: "[entry name] written to KB at high confidence."
+1. Assess tier: does it pass the Core test ("changes decisions across 2+ businesses")? If yes → Core. If no → Reference.
+2. Assign honest confidence based on evidence quality (not default to high)
+3. Write the entry, update the appropriate index (INDEX.md for Core, DOMAIN_INDEX.md for Reference)
+4. Push to git
+5. Confirm: "[entry name] written to KB at [confidence], [tier]."
 
 When Josh says "needs more research":
 1. Add to `research_requests/consultant_flags.md`
-2. Stays unwritten until more evidence
 
 When Josh rejects:
 1. Discard — no entry, no flag
-
-This ensures no knowledge enters the KB without human review. The trigger does the legwork, Stark does the synthesis, Josh does the approval.
