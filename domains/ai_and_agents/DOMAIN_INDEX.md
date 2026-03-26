@@ -24,4 +24,6 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [mcp_collapses_tool_ui_into_output_format](mcp_collapses_tool_ui_into_output_format.md) | medium | MCP access collapses tool UI to output format. Two YouTube sources, same niche. |
 | [microsoft_agent_framework_replaces_autogen](microsoft_agent_framework_replaces_autogen.md) | medium-high | AutoGen in maintenance mode. Verifiable fact + decision rule. |
 | [model_capabilities_map](model_capabilities_map.md) | medium | Point-in-time snapshot. Pricing and capabilities will be stale within weeks. |
+| [background_memory_consolidation](background_memory_consolidation.md) | medium | Periodic background consolidation prevents agent memory decay. 913 sessions in 9 min. Not GA yet. |
+| [classifier_gated_permission_tiers](classifier_gated_permission_tiers.md) | medium-high | Three-tier permission layers for autonomous agents. 0.4% FP, 5.7% FN on exfiltration. |
 | [multi_tool_terminal_orchestration](multi_tool_terminal_orchestration.md) | medium | Multiple AI terminals on same project. Session closer agent. OpenCode details. |
