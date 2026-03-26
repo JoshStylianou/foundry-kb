@@ -5,6 +5,7 @@ type: pattern
 source: OWASP Secrets Management Cheat Sheet, 12-Factor App methodology
 confidence: high
 date_added: 2026-03-26
+date_verified: 2026-03-26
 domain: security
 ---
 

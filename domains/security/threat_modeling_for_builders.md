@@ -5,6 +5,7 @@ type: pattern
 source: Adam Shostack "Threat Modeling" methodology, Microsoft STRIDE, adapted for Foundry context
 confidence: medium-high
 date_added: 2026-03-26
+date_verified: 2026-03-26
 domain: security
 ---
 

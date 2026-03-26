@@ -7,6 +7,7 @@ source: AI Learning Knowledge Base — YouTube transcripts
 confidence: medium-high
 date_added: 2026-03-21
 date_updated: 2026-03-24
+date_verified: 2026-03-24
 source_updated: Anthropic / SitePoint, March 2026
 tags: [agent-teams, multi-agent, claude-code, orchestration]
 related: [agentic_workflows_patterns.md, claude_code_advanced_workflows.md]

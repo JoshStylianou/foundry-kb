@@ -1,7 +1,7 @@
 ---
 name: Augmentation layers outperform full replacements on mature systems
 description: Adding an AI optimization layer to a working system beats replacing it — 23% better unit economics at 91% reach. Use when the base system works but underperforms.
-domain: growth_marketing
+domain: ai_and_agents
 source: Google Ads blog (May 2025) + Kamal Bhatt 892-account analysis
 confidence: high
 date_added: 2026-03-25

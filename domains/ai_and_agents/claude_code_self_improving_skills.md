@@ -7,6 +7,7 @@ source: AI Learning Knowledge Base — YouTube transcripts
 confidence: medium-high
 date_added: 2026-03-21
 date_updated: 2026-03-24
+date_verified: 2026-03-24
 tags: [skills, evals, self-improving, qa, assertions]
 related: [claude_code_skill_architecture.md]
 ---

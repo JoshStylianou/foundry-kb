@@ -45,11 +45,12 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Domain | Reference Entries | Last Updated | Index |
 |--------|------------------|--------------|-------|
-| [ai_and_agents](domains/ai_and_agents/) | 21 | 2026-03-26 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
+| [ai_and_agents](domains/ai_and_agents/) | 23 | 2026-03-26 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
 | [business_operations](domains/business_operations/) | 4 | 2026-03-25 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
 | [tools_and_software](domains/tools_and_software/) | 1 | 2026-03-25 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
 | [security](domains/security/) | 6 | 2026-03-26 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
 | [growth_marketing](domains/growth_marketing/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
+| [meta_learning](domains/meta_learning/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/meta_learning/DOMAIN_INDEX.md) |
 | [forex_trading](domains/forex_trading/) | 0 | — | — |
 
 ---

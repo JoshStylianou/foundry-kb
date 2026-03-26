@@ -6,6 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: medium
 date_added: 2026-03-21
+date_verified: 2026-03-21
 tags: [context-window, token-management, claude-code, performance]
 related: [claude_code_practical_tips.md, claude_code_advanced_workflows.md]
 ---

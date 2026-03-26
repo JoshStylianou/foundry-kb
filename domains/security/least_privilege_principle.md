@@ -5,6 +5,7 @@ type: pattern
 source: NIST SP 800-53 (AC-6), principle of least privilege
 confidence: high
 date_added: 2026-03-26
+date_verified: 2026-03-26
 domain: security
 ---
 
