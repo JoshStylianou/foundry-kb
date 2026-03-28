@@ -26,4 +26,11 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [model_capabilities_map](model_capabilities_map.md) | medium | Point-in-time snapshot. Pricing and capabilities will be stale within weeks. |
 | [background_memory_consolidation](background_memory_consolidation.md) | medium | Periodic background consolidation prevents agent memory decay. 913 sessions in 9 min. Not GA yet. |
 | [classifier_gated_permission_tiers](classifier_gated_permission_tiers.md) | medium-high | Three-tier permission layers for autonomous agents. 0.4% FP, 5.7% FN on exfiltration. |
+| [multi_agent_orchestration_tax](multi_agent_orchestration_tax.md) | medium-high | Multi-agent crews impose ~3× token/time overhead on single-step tasks. Route by complexity. |
 | [multi_tool_terminal_orchestration](multi_tool_terminal_orchestration.md) | medium | Multiple AI terminals on same project. Session closer agent. OpenCode details. |
+| [agent_capability_doubling_rate](agent_capability_doubling_rate.md) | medium | Agent task horizons doubling every ~89 days. Planning calibration tool. |
+| [model_routing_subagent_cost_control](model_routing_subagent_cost_control.md) | high | Route subagent tasks by complexity: Haiku for search, Sonnet for analysis, Opus for reasoning. Env var for global override. |
+| [mcp_roadmap_aware_architecture](mcp_roadmap_aware_architecture.md) | high | Check MCP roadmap before building infrastructure. Several needed features are actively being built. |
+| [anti_prompting_regression_on_newer_models](anti_prompting_regression_on_newer_models.md) | high | Soften aggressive prompt language when upgrading to 4.6 — overtriggering replaces undertriggering. |
+| [prefill_deprecation_on_claude_46](prefill_deprecation_on_claude_46.md) | high | Prefilled assistant turns deprecated on 4.6. Migrate to structured outputs or system prompt instructions. |
+| [cache_breakpoint_placement_ordering](cache_breakpoint_placement_ordering.md) | high | Cache hit rates depend on content ordering. Dynamic content before breakpoints invalidates cache. |

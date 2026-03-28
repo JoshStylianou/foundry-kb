@@ -42,20 +42,17 @@ What are we building?
 What are we building?
 ```
 
-## Daily Brief — On Demand
+## Daily Brief — Automatic on Session Start
 
-The daily brief lives in #foundry-briefs. **Do NOT pull it automatically at session start.**
+The daily brief lives in #foundry-briefs. **Pull it automatically at session start.**
 
-Pull it when:
-- Josh says "brief", "what's pending", "anything from overnight", or similar
-- Josh is making a decision where current signals would be relevant (pull silently and apply)
-- Josh explicitly asks to review KB signals
-
-When pulling the brief:
-1. Fetch Slack MCP schema via ToolSearch if needed
+After the integrity check (Step 2), before presenting the opening:
+1. Fetch Slack MCP schema via ToolSearch
 2. Read latest messages from #foundry-briefs (channel ID: C0ANAU3RR1R)
-3. Deduplicate KB signals against INDEX.md and domain indexes before presenting
-4. Present with the approval protocol below
+3. Deduplicate KB signals against INDEX.md and domain indexes — silently drop anything already covered
+4. For each new signal, include: **recommendation** (approve / reject / needs research), **proposed tier** (Core or Reference with reasoning), and **proposed confidence** (with justification based on evidence quality)
+5. Present new signals in the opening with recommendations, or note "No new signals" if everything has been processed
+6. Lead with the recommendation so Josh can approve or override quickly
 
 ## KB Entry Approval Protocol
 
