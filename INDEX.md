@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
-**Last updated:** 2026-03-27
-**Total entries:** 58 active (15 Core + 43 Reference) | 2 archived
+**Last updated:** 2026-03-28
+**Total entries:** 59 active (16 Core + 43 Reference) | 2 archived
 **Active research topics:** 5
 
 ---
@@ -16,7 +16,7 @@
 
 ---
 
-## Core Patterns (15 entries)
+## Core Patterns (16 entries)
 
 These are the highest-value, most transferable patterns in the KB. Every agent should know these exist.
 
@@ -36,6 +36,7 @@ These are the highest-value, most transferable patterns in the KB. Every agent s
 | [shift_based_handoff_for_sustained_autonomous_work](domains/ai_and_agents/shift_based_handoff_for_sustained_autonomous_work.md) | medium | ai_and_agents | Bounded shifts with handoff artifacts > continuous operation. Agents degrade over sustained work. |
 | [attribution_reclassification_mimics_performance_decline](domains/growth_marketing/attribution_reclassification_mimics_performance_decline.md) | high | growth_marketing | Platform attribution redefinitions mimic performance drops. Meta March 2026: ~30-40% reported click drop, zero actual change. |
 | [pattern-identity-first-agent-design](domains/meta_learning/pattern-identity-first-agent-design.md) | medium-high | meta_learning | Identity-first vs capability-first agent design. Kennedy framework. Identity shapes tool selection. |
+| [capability_saturation_threshold_multi_agent_routing](domains/ai_and_agents/capability_saturation_threshold_multi_agent_routing.md) | high | ai_and_agents | Single-agent >45% success = adding agents hurts. Google/MIT, 180 configs, 3 LLM families. Sequential tasks degrade 39-70%. |
 | [conversion_signal_floor_algorithmic_delivery](domains/growth_marketing/conversion_signal_floor_algorithmic_delivery.md) | high | growth_marketing | Below 50 weekly conversion events per ad set, CPMs spike 15-40%. Data starvation penalty, not creative failure. |
 
 ---
@@ -60,7 +61,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Rating | Meaning | Count |
 |--------|---------|-------|
-| **high** | Multiple independent sources, quantified evidence, verified current | 18 |
+| **high** | Multiple independent sources, quantified evidence, verified current | 19 |
 | **medium-high** | Solid evidence, single source or landscape may have shifted | 18 |
 | **medium** | Logical with some evidence, not rigorously quantified | 20 |
 | **low-medium** | Thin evidence or single anecdote | 1 |
@@ -79,7 +80,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 ## KB Health
 
-- **Confidence distribution:** 14 high / 18 medium-high / 20 medium / 1 low-medium
+- **Confidence distribution:** 15 high / 18 medium-high / 20 medium / 1 low-medium
 - **Archived entries:** 2 (domains/archive/)
 - **Last confidence audit:** 2026-03-25 (full audit — all 43 entries reassessed, 2 archived, 2 merged)
 - **Last Josh input ingestion:** 2026-03-28
