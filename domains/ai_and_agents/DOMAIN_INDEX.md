@@ -13,6 +13,8 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [claude_code_advanced_workflows](claude_code_advanced_workflows.md) | medium | GSD/BMAD frameworks, worktrees, AI dev mindset. Star counts will be stale. |
 | [claude_code_agent_teams](claude_code_agent_teams.md) | medium-high | Sub-agents vs agent teams distinction. Claude Code-specific architecture. |
 | [claude_code_context_management](claude_code_context_management.md) | medium | Context rot patterns, progressive disclosure. YouTube-sourced, not benchmarked. |
+| [claude_md_four_pillars_design](claude_md_four_pillars_design.md) | medium-high | Four functions of a claude.md: knowledge compression, preferences, capability declaration, failure log. 45x compression evidence. |
+| [dual_loop_system_prompt_improvement](dual_loop_system_prompt_improvement.md) | medium-high | Local loop (per-feature) + global loop (/insights) for continuous system prompt improvement. Probability decay math. |
 | [claude_code_loops_and_scheduling](claude_code_loops_and_scheduling.md) | medium | /loop and /schedule features. Feature documentation, will change. |
 | [claude_code_practical_tips](claude_code_practical_tips.md) | medium | Collection of tips: hooks vs skills, Gemini fallback, verification tables. |
 | [claude_code_skill_architecture](claude_code_skill_architecture.md) | medium-high | Capability uplift vs encoded preference. Six-step framework. Tool-specific. |
@@ -34,3 +36,4 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [anti_prompting_regression_on_newer_models](anti_prompting_regression_on_newer_models.md) | high | Soften aggressive prompt language when upgrading to 4.6 — overtriggering replaces undertriggering. |
 | [prefill_deprecation_on_claude_46](prefill_deprecation_on_claude_46.md) | high | Prefilled assistant turns deprecated on 4.6. Migrate to structured outputs or system prompt instructions. |
 | [cache_breakpoint_placement_ordering](cache_breakpoint_placement_ordering.md) | high | Cache hit rates depend on content ordering. Dynamic content before breakpoints invalidates cache. |
+| [constraint_first_reliability_production_agents](constraint_first_reliability_production_agents.md) | high | Deterministic structural brackets around LLM decisions for production reliability. Stripe Minions: 1,300 PRs/week. |
