@@ -6,7 +6,7 @@ domain: ai_and_agents
 source: AI Learning Knowledge Base — YouTube transcripts
 confidence: medium
 date_added: 2026-03-21
-date_verified: 2026-03-21
+date_verified: 2026-03-31
 tags: [context-window, token-management, claude-code, performance]
 related: [claude_code_practical_tips.md, claude_code_advanced_workflows.md]
 ---
@@ -17,7 +17,7 @@ Context window is finite and perishable. Every token loaded is a token unavailab
 
 ## Context Rot Threshold
 
-Claude Code's default context window is 200k tokens. Effectiveness **drops drastically at ~100-120k tokens** (50-60% utilisation). This is "context rot" — the model's ability to reason coherently nosedives in the back half of the window. Implication: treat 50-60% as the red zone, not 90%. Reset before you hit it, not after.
+Claude Code's context window varies by model: 1M tokens on Opus 4.6 and Sonnet 4.6 (native, no beta header, no surcharge since March 2026), 200k on older models. Regardless of window size, effectiveness degrades past ~50-60% utilisation ("context rot"). The model's ability to reason coherently drops in the back half of any window. Implication: treat 50-60% as the red zone, not 90%. Reset before you hit it, not after.
 
 ## Status Line for Context Monitoring
 
