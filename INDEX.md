@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
 **Last updated:** 2026-03-31
-**Total entries:** 62 active (16 Core + 46 Reference) | 2 archived
+**Total entries:** 63 active (16 Core + 47 Reference) | 2 archived
 **Active research topics:** 5
 
 ---
@@ -49,7 +49,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 |--------|------------------|--------------|-------|
 | [ai_and_agents](domains/ai_and_agents/) | 33 | 2026-03-31 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
 | [business_operations](domains/business_operations/) | 4 | 2026-03-25 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
-| [tools_and_software](domains/tools_and_software/) | 3 | 2026-03-28 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
+| [tools_and_software](domains/tools_and_software/) | 4 | 2026-03-31 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
 | [security](domains/security/) | 6 | 2026-03-26 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
 | [growth_marketing](domains/growth_marketing/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
 | [meta_learning](domains/meta_learning/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/meta_learning/DOMAIN_INDEX.md) |
@@ -61,7 +61,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Rating | Meaning | Count |
 |--------|---------|-------|
-| **high** | Multiple independent sources, quantified evidence, verified current | 20 |
+| **high** | Multiple independent sources, quantified evidence, verified current | 21 |
 | **medium-high** | Solid evidence, single source or landscape may have shifted | 18 |
 | **medium** | Logical with some evidence, not rigorously quantified | 20 |
 | **low-medium** | Thin evidence or single anecdote | 1 |
@@ -80,7 +80,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 ## KB Health
 
-- **Confidence distribution:** 20 high / 18 medium-high / 20 medium / 1 low-medium
+- **Confidence distribution:** 21 high / 18 medium-high / 20 medium / 1 low-medium
 - **Archived entries:** 2 (domains/archive/)
 - **Last confidence audit:** 2026-03-25 (full audit — all 43 entries reassessed, 2 archived, 2 merged)
 - **Last Josh input ingestion:** 2026-03-31
