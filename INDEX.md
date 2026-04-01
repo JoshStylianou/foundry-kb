@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
 **Last updated:** 2026-03-31
-**Total entries:** 63 active (16 Core + 47 Reference) | 2 archived
+**Total entries:** 64 active (16 Core + 48 Reference) | 2 archived
 **Active research topics:** 5
 
 ---
@@ -47,7 +47,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Domain | Reference Entries | Last Updated | Index |
 |--------|------------------|--------------|-------|
-| [ai_and_agents](domains/ai_and_agents/) | 33 | 2026-03-31 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
+| [ai_and_agents](domains/ai_and_agents/) | 34 | 2026-04-01 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
 | [business_operations](domains/business_operations/) | 4 | 2026-03-25 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
 | [tools_and_software](domains/tools_and_software/) | 4 | 2026-03-31 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
 | [security](domains/security/) | 6 | 2026-03-26 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
@@ -62,7 +62,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 | Rating | Meaning | Count |
 |--------|---------|-------|
 | **high** | Multiple independent sources, quantified evidence, verified current | 21 |
-| **medium-high** | Solid evidence, single source or landscape may have shifted | 18 |
+| **medium-high** | Solid evidence, single source or landscape may have shifted | 19 |
 | **medium** | Logical with some evidence, not rigorously quantified | 20 |
 | **low-medium** | Thin evidence or single anecdote | 1 |
 

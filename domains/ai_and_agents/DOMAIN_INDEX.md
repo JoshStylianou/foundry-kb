@@ -37,3 +37,4 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [prefill_deprecation_on_claude_46](prefill_deprecation_on_claude_46.md) | high | Prefilled assistant turns deprecated on 4.6. Migrate to structured outputs or system prompt instructions. |
 | [cache_breakpoint_placement_ordering](cache_breakpoint_placement_ordering.md) | high | Cache hit rates depend on content ordering. Dynamic content before breakpoints invalidates cache. |
 | [constraint_first_reliability_production_agents](constraint_first_reliability_production_agents.md) | high | Deterministic structural brackets around LLM decisions for production reliability. Stripe Minions: 1,300 PRs/week. |
+| [context_window_coordination_budget_subagent_depth](context_window_coordination_budget_subagent_depth.md) | medium-high | Context window = coordination budget. Delegate depth to isolated subagents. Q1 2026 cross-framework convergence. |
