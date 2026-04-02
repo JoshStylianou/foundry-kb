@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
-**Last updated:** 2026-03-31
-**Total entries:** 64 active (16 Core + 48 Reference) | 2 archived
+**Last updated:** 2026-04-02
+**Total entries:** 68 active (17 Core + 51 Reference) | 2 archived
 **Active research topics:** 5
 
 ---
@@ -37,6 +37,7 @@ These are the highest-value, most transferable patterns in the KB. Every agent s
 | [attribution_reclassification_mimics_performance_decline](domains/growth_marketing/attribution_reclassification_mimics_performance_decline.md) | high | growth_marketing | Platform attribution redefinitions mimic performance drops. Meta March 2026: ~30-40% reported click drop, zero actual change. |
 | [pattern-identity-first-agent-design](domains/meta_learning/pattern-identity-first-agent-design.md) | medium-high | meta_learning | Identity-first vs capability-first agent design. Kennedy framework. Identity shapes tool selection. |
 | [capability_saturation_threshold_multi_agent_routing](domains/ai_and_agents/capability_saturation_threshold_multi_agent_routing.md) | high | ai_and_agents | Single-agent >45% success = adding agents hurts. Google/MIT, 180 configs, 3 LLM families. Sequential tasks degrade 39-70%. |
+| [context_compression_agentic_performance_multiplier](domains/ai_and_agents/context_compression_agentic_performance_multiplier.md) | high | ai_and_agents | Server-side context compression is the primary lever for cost and performance in multi-turn agents. 84% token reduction, 39% performance improvement. |
 | [conversion_signal_floor_algorithmic_delivery](domains/growth_marketing/conversion_signal_floor_algorithmic_delivery.md) | high | growth_marketing | Below 50 weekly conversion events per ad set, CPMs spike 15-40%. Data starvation penalty, not creative failure. |
 
 ---
@@ -47,8 +48,8 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Domain | Reference Entries | Last Updated | Index |
 |--------|------------------|--------------|-------|
-| [ai_and_agents](domains/ai_and_agents/) | 34 | 2026-04-01 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
-| [business_operations](domains/business_operations/) | 4 | 2026-03-25 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
+| [ai_and_agents](domains/ai_and_agents/) | 36 | 2026-04-02 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
+| [business_operations](domains/business_operations/) | 5 | 2026-04-01 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
 | [tools_and_software](domains/tools_and_software/) | 4 | 2026-03-31 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
 | [security](domains/security/) | 6 | 2026-03-26 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
 | [growth_marketing](domains/growth_marketing/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
@@ -80,7 +81,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 ## KB Health
 
-- **Confidence distribution:** 21 high / 18 medium-high / 20 medium / 1 low-medium
+- **Confidence distribution:** 22 high / 19 medium-high / 21 medium / 1 low-medium
 - **Archived entries:** 2 (domains/archive/)
 - **Last confidence audit:** 2026-03-25 (full audit — all 43 entries reassessed, 2 archived, 2 merged)
-- **Last Josh input ingestion:** 2026-03-31
+- **Last Josh input ingestion:** 2026-04-02

@@ -2,10 +2,10 @@
 name: Meta Andromeda — creative diversity IS the targeting mechanism
 description: Andromeda's Entity ID fingerprinting means conceptual diversity earns multiple auction tickets. Old tight-ad-set discipline is counterproductive. 1 campaign, 1-2 broad ad sets, 10-20 conceptually distinct creatives.
 domain: ai_and_agents
-source: billo.app, armadagrowth.com, anchour.com/articles/meta-ads-2026-playbook, Foundry daily briefs 2026-03-24/25
+source: billo.app, armadagrowth.com, anchour.com/articles/meta-ads-2026-playbook, Foundry daily briefs 2026-03-24/25, 2026-04-02
 confidence: medium-high
 date_added: 2026-03-25
-date_verified: 2026-03-25
+date_verified: 2026-04-02
 tags: [meta, andromeda, creative-targeting, ad-structure, performance-marketing, tnt-growth]
 related: []
 ---
@@ -34,6 +34,14 @@ Andromeda is 100x faster at matching people to ads and handles 10,000x more vari
 
 - Entity ID fingerprinting means minor visual tweaks (color changes, text swaps) don't earn new auction tickets
 - CPMr monitoring needed to catch creative fatigue before CPA spikes
+
+## Creative Redundancy Penalty (CPM Impact)
+
+Andromeda actively detects visually similar creative variants within a campaign and applies algorithmic cost premiums (higher CPMs). Running 10 near-identical ad variants does not expand reach — it concentrates delivery at premium cost. Genuine creative differentiation is required, not surface-level variation (different text on the same image).
+
+This is the enforcement mechanism behind the Entity ID pattern: Andromeda recognizes visually similar ads and charges higher CPMs for redundancy. Google PMax uses similar logic. The penalty applies on any platform with AI-powered delivery optimization (Meta, Google PMax, TikTok AI delivery).
+
+Source: anchour.com/articles/meta-ads-2026-playbook (April 2026 brief)
 
 ## What Changed
 

@@ -8,3 +8,4 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [identification_over_implementation_pricing](identification_over_implementation_pricing.md) | medium | $5K-$50K won by scoping, not building. Standard consulting wisdom with thin evidence. |
 | [inverse_price_demand_capped_communities](inverse_price_demand_capped_communities.md) | low-medium | Raising prices with caps can increase signups. Single anecdote, no control group. |
 | [selling_agentic_workflows](selling_agentic_workflows.md) | medium | Value-based pricing for automation services. Generic positioning framework. |
+| [newsletter_automation_draft_approve_pattern](newsletter_automation_draft_approve_pattern.md) | medium-high | Draft-approve-send newsletter from blog content. Voice calibration method. Proven at Styfinity. |
