@@ -27,8 +27,22 @@ MCP Roadmap (updated 2026-03-05) active priorities:
 - Check the roadmap before any MCP infrastructure build
 - The Foundry's weekly docs monitor trigger will catch when these ship
 
+## Three-Layer Enterprise Protocol Stack (April 2026)
+
+Interoperable enterprise AI deployments have converged on a three-layer architecture:
+1. **MCP** — governs how agents access tools, data, and enterprise systems
+2. **A2A** (Agent-to-Agent) — governs how agents communicate with each other across departments, vendors, and organizations (IBM's ACP merged into A2A, August 2025)
+3. **WebMCP** — governs how agents interact with the web
+
+100+ enterprises formally adopted this stack by February 2026. Oracle, Google, AWS, Anthropic, Salesforce, SAP all operate within this framework.
+
+When architecting any multi-system AI OS: design for all three layers. For internal single-agent tools with no cross-system needs, MCP alone is sufficient.
+
+Source: Multiple enterprise sources + Notch (insurer-turned-AI-OS, $30M Series A) + Agency (Series A, Nov 2025)
+
 ## Boundaries
 
 - The roadmap explicitly states "these are not commitments" and "we may solve these challenges differently than described"
 - Don't wait for perfection — build what you need now, but architect for replacement
 - If a custom solution would take <1 day and the roadmap item has no timeline, just build it
+- A2A is still maturing — expect protocol changes before stabilization

@@ -50,3 +50,16 @@ This is the single highest-leverage pattern for context efficiency. Most people 
 
 - **Mermaid diagrams compress context efficiently.** A flowchart that would take 500 words of prose can be expressed in 100 tokens of Mermaid syntax, and Claude reads both equally well.
 - **Tables over paragraphs.** Structured data in table format uses fewer tokens and is parsed more reliably than equivalent prose.
+
+## Selective State Loading (April 2026 data)
+
+Every system with an accumulating context ceiling performs better when intake is managed than when the ceiling is raised. The bottleneck is not capacity — it is discipline over what enters.
+
+Quantified impact on Claude Code projects:
+- `.claudeignore` alone cuts context 30–40% on a Next.js project
+- Basic techniques (`.claudeignore` + `/clear` between tasks + trimmed CLAUDE.md) deliver 50–70% reduction per multiple developer reports
+- Selective documentation loading (always-loaded ~800 tokens, on-demand reference files) demonstrated 88% reduction on one project (11,000 → 1,300 tokens)
+
+Fails when the task genuinely requires full context (unknown bug spanning an entire codebase) or when organizing context files costs more than the savings (small one-shot projects).
+
+Source: Nate Herk "18 Claude Code Token Hacks in 18 Minutes" (~Apr 1, 2026)

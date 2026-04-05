@@ -9,3 +9,5 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [inverse_price_demand_capped_communities](inverse_price_demand_capped_communities.md) | low-medium | Raising prices with caps can increase signups. Single anecdote, no control group. |
 | [selling_agentic_workflows](selling_agentic_workflows.md) | medium | Value-based pricing for automation services. Generic positioning framework. |
 | [newsletter_automation_draft_approve_pattern](newsletter_automation_draft_approve_pattern.md) | medium-high | Draft-approve-send newsletter from blog content. Voice calibration method. Proven at Styfinity. |
+| [ai_native_products_4x_cogs](ai_native_products_4x_cogs.md) | medium-high | AI-first SaaS = 40–50% COGS vs 10–20% traditional. Per-task cost visibility is an architecture requirement. |
+| [market_value_pain_frequency_repetition](market_value_pain_frequency_repetition.md) | medium | Buyers pay for recurring friction removal. 500 workflows built, 5 sell. Pain frequency × repetition = value. |

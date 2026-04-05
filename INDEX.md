@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
-**Last updated:** 2026-04-02
-**Total entries:** 63 active (17 Core + 46 Reference) | 7 archived
+**Last updated:** 2026-04-05
+**Total entries:** 73 active (20 Core + 53 Reference) | 7 archived
 **Active research topics:** 5
 
 ---
@@ -16,7 +16,7 @@
 
 ---
 
-## Core Patterns (17 entries)
+## Core Patterns (20 entries)
 
 These are the highest-value, most transferable patterns in the KB. Every agent should know these exist.
 
@@ -39,6 +39,9 @@ These are the highest-value, most transferable patterns in the KB. Every agent s
 | [watch_item_escalation_across_brief_cycles](domains/ai_and_agents/watch_item_escalation_across_brief_cycles.md) | medium-high | ai_and_agents | Inject prior state for temporal reasoning. Escalation across cycles. |
 | [pattern-identity-first-agent-design](domains/meta_learning/pattern-identity-first-agent-design.md) | medium-high | meta_learning | Identity-first vs capability-first agent design. Kennedy framework. |
 | [shift_based_handoff_for_sustained_autonomous_work](domains/ai_and_agents/shift_based_handoff_for_sustained_autonomous_work.md) | medium | ai_and_agents | Bounded shifts with handoff artifacts > continuous operation. Agents degrade. |
+| [reliability_threshold_drives_adoption_inflection](domains/ai_and_agents/reliability_threshold_drives_adoption_inflection.md) | medium-high | ai_and_agents | Adoption inflects at reliability threshold, not capability peak. Nov 2025 inflection. |
+| [verifiability_binding_constraint_agent_reliability](domains/ai_and_agents/verifiability_binding_constraint_agent_reliability.md) | medium-high | ai_and_agents | Agents succeed where output is fast-verifiable. Generation→testing bottleneck shift. |
+| [agent_project_failure_rate_success_attributes](domains/ai_and_agents/agent_project_failure_rate_success_attributes.md) | high | ai_and_agents | 88% of agent projects fail. 4 attributes of the 12%. Multi-source convergence. |
 
 ---
 
@@ -48,12 +51,12 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Domain | Reference Entries | Last Updated | Index |
 |--------|------------------|--------------|-------|
-| [ai_and_agents](domains/ai_and_agents/) | 31 | 2026-04-02 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
-| [business_operations](domains/business_operations/) | 5 | 2026-04-01 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
+| [ai_and_agents](domains/ai_and_agents/) | 35 | 2026-04-05 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
+| [business_operations](domains/business_operations/) | 7 | 2026-04-05 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
 | [tools_and_software](domains/tools_and_software/) | 4 | 2026-03-31 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
-| [security](domains/security/) | 6 | 2026-03-26 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
+| [security](domains/security/) | 7 | 2026-04-05 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
 | [growth_marketing](domains/growth_marketing/) | 2 | 2026-04-02 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
-| [meta_learning](domains/meta_learning/) | 0 | 2026-03-26 | [DOMAIN_INDEX.md](domains/meta_learning/DOMAIN_INDEX.md) |
+| [meta_learning](domains/meta_learning/) | 2 | 2026-04-05 | [DOMAIN_INDEX.md](domains/meta_learning/DOMAIN_INDEX.md) |
 | [forex_trading](domains/forex_trading/) | 0 | — | — |
 
 ---
@@ -62,9 +65,9 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Rating | Meaning | Count |
 |--------|---------|-------|
-| **high** | Multiple independent sources, quantified evidence, verified current | 19 |
-| **medium-high** | Solid evidence, single source or landscape may have shifted | 18 |
-| **medium** | Logical with some evidence, not rigorously quantified | 18 |
+| **high** | Multiple independent sources, quantified evidence, verified current | 21 |
+| **medium-high** | Solid evidence, single source or landscape may have shifted | 23 |
+| **medium** | Logical with some evidence, not rigorously quantified | 21 |
 | **low-medium** | Thin evidence or single anecdote | 1 |
 
 ---
@@ -81,7 +84,7 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 ## KB Health
 
-- **Confidence distribution:** 19 high / 18 medium-high / 18 medium / 1 low-medium
+- **Confidence distribution:** 21 high / 23 medium-high / 21 medium / 1 low-medium
 - **Archived entries:** 7 (domains/archive/)
-- **Last structural audit:** 2026-04-02 (consolidated Claude Code 7→3, moved marketing entries, added section headers)
-- **Last Josh input ingestion:** 2026-04-02
+- **Last structural audit:** 2026-04-02 (consolidated Claude Code 7->3, moved marketing entries, added section headers)
+- **Last Josh input ingestion:** 2026-04-05

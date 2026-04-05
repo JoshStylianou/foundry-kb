@@ -71,3 +71,12 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [five_component_prompt_formula_workflows](five_component_prompt_formula_workflows.md) | medium | Trigger + Source + Ops + Output + Constraints for workflow generation. |
 | [knowledge_cascade_pattern](knowledge_cascade_pattern.md) | medium | Six-level knowledge hierarchy. Foundry's own architecture. |
 | [microsoft_agent_framework_replaces_autogen](microsoft_agent_framework_replaces_autogen.md) | medium-high | AutoGen in maintenance mode. |
+
+### Agent Reliability & Deployment
+| Entry | Confidence | One-line |
+|-------|-----------|----------|
+| [reliability_threshold_drives_adoption_inflection](../../INDEX.md) | *(Core)* | Adoption inflects at reliability threshold, not capability peak. |
+| [verifiability_binding_constraint_agent_reliability](../../INDEX.md) | *(Core)* | Agents succeed where output is fast-verifiable. |
+| [agent_project_failure_rate_success_attributes](../../INDEX.md) | *(Core)* | 88% of agent projects fail. 4 attributes of the 12%. |
+| [deterministic_orchestration_separate_from_reasoning](deterministic_orchestration_separate_from_reasoning.md) | medium-high | Deterministic orchestration must be separate from autonomous reasoning. CrewAI 12M+/day. |
+| [specialized_agent_per_domain_isolation](specialized_agent_per_domain_isolation.md) | medium | One agent per domain, isolated credentials, zero crossover. Claire Vo 9-agent architecture. |
