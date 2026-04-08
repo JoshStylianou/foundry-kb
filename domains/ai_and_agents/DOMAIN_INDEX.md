@@ -11,6 +11,7 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [agentic_workflows_patterns](../../INDEX.md) | *(Core)* | WAT framework, self-healing boundaries, four key shifts |
 | [consulting_agent_architecture](../../INDEX.md) | *(Core)* | Six-component consulting agent protocol, three-layer cognitive architecture |
 | [organizational_hierarchy_multi_agent_coordination](organizational_hierarchy_multi_agent_coordination.md) | medium | Org chart structure as coordination mechanism. Paperclip pattern. |
+| [agent_scaling_organizational_design_problem](../../INDEX.md) | *(Core)* | Agents fail to scale without org primitives: roles, accountability, escalation, SLAs. |
 
 ### Agent Safety & Reliability
 | Entry | Confidence | One-line |
@@ -44,6 +45,7 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [claude_api_search_code_execution_ga](claude_api_search_code_execution_ga.md) | medium | Web search + code execution GA. |
 | [model_capabilities_map](model_capabilities_map.md) | medium | Point-in-time snapshot. Pricing will be stale — verify before citing. |
 | [model_routing_subagent_cost_control](model_routing_subagent_cost_control.md) | high | Route subagents by complexity: Haiku search, Sonnet analysis, Opus reasoning. |
+| [interface_engine_decoupling_cost_routing](interface_engine_decoupling_cost_routing.md) | medium-high | Separate interface from engine to route by complexity. 23x cost difference. |
 | [prefill_deprecation_on_claude_46](prefill_deprecation_on_claude_46.md) | high | Prefilled assistant turns deprecated on 4.6. |
 
 ### MCP & Tool Integration
@@ -80,3 +82,5 @@ Reference-tier entries for this domain. For Core patterns, see the main [INDEX.m
 | [agent_project_failure_rate_success_attributes](../../INDEX.md) | *(Core)* | 88% of agent projects fail. 4 attributes of the 12%. |
 | [deterministic_orchestration_separate_from_reasoning](deterministic_orchestration_separate_from_reasoning.md) | medium-high | Deterministic orchestration must be separate from autonomous reasoning. CrewAI 12M+/day. |
 | [specialized_agent_per_domain_isolation](specialized_agent_per_domain_isolation.md) | medium | One agent per domain, isolated credentials, zero crossover. Claire Vo 9-agent architecture. |
+| [platform_trust_inheritance_enterprise_adoption](platform_trust_inheritance_enterprise_adoption.md) | medium | Enterprises adopt agents faster inside existing platform trust frameworks. |
+| [three_layer_protocol_stack_multi_system_ai](three_layer_protocol_stack_multi_system_ai.md) | medium-high | MCP + A2A + WebMCP — converged enterprise protocol stack. 100+ adoptions by Feb 2026. |
