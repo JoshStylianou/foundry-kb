@@ -5,7 +5,7 @@ domain: growth_marketing
 source: Meta for Business "Simplifying Ad Measurement for a Social-First World" (March 3 2026), ALM Corp, Leaf Signal, Jon Loomer Digital
 confidence: high
 date_added: 2026-03-26
-date_verified: 2026-03-26
+date_verified: 2026-04-08
 tags: [attribution, measurement, client-communication, ad-platforms, reporting, metrics, reclassification]
 related: [meta_andromeda_creative_is_targeting.md]
 ---
@@ -26,6 +26,7 @@ This is not a one-time event. Every major platform periodically redefines what c
   - Billing unchanged — advertisers pay the same, reports show less
   - Northbeam and Triple Whale updated their attribution models in response
 - **Source corroboration:** Meta for Business official announcement, ALM Corp blog analysis, Leaf Signal breakdown, Jon Loomer Digital coverage — four independent sources reaching the same conclusion
+- **April 2026 confirmation:** Meta's click attribution redefinition is now fully live. Link clicks only count as click-through; all other interactions are "engage-through." Video engaged-view threshold confirmed at 5 seconds (down from 10). Location fees also went live: Austria +5%, Turkey +5%, France/Italy/Spain +3%, UK +2% — these are separate from attribution but compound the appearance of "worse performance" if ROAS calculations don't account for the fee increase. Source: SocialBee, Gezar (April 2026)
 
 ## Application Trigger
 

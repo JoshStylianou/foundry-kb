@@ -1,7 +1,7 @@
 # The Foundry Knowledge Base — Master Index
 
 **Last updated:** 2026-04-08
-**Total entries:** 81 active (21 Core + 60 Reference) | 7 archived
+**Total entries:** 87 active (23 Core + 64 Reference) | 7 archived
 **Active research topics:** 5
 
 ---
@@ -35,6 +35,8 @@ These are the highest-value, most transferable patterns in the KB. Every agent s
 | [claude_code_skill_system](domains/ai_and_agents/claude_code_skill_system.md) | medium-high | ai_and_agents | Skill types, build framework, binary assertion evals, auto-research loops |
 | [consulting_agent_architecture](domains/ai_and_agents/consulting_agent_architecture.md) | medium-high | ai_and_agents | Six-component consulting agent protocol. Three-layer cognitive architecture. |
 | [meta_andromeda_creative_is_targeting](domains/growth_marketing/meta_andromeda_creative_is_targeting.md) | medium-high | growth_marketing | Entity ID fingerprinting: creative diversity IS the targeting mechanism. CPM penalty for redundancy. |
+| [bing_chatgpt_citation_pipeline](domains/growth_marketing/bing_chatgpt_citation_pipeline.md) | high | growth_marketing | 87% of ChatGPT citations match Bing top results. Bing optimization mandatory for GEO. |
+| [ai_citation_freshness_decay](domains/growth_marketing/ai_citation_freshness_decay.md) | medium-high | growth_marketing | 50% of AI-cited content <13 weeks old. 28% more citations for content updated within 2 months. |
 | [skills_layer_makes_mcp_reliable](domains/ai_and_agents/skills_layer_makes_mcp_reliable.md) | medium-high | ai_and_agents | Skills layer makes MCP production-reliable. 45min→3min with zero errors. |
 | [watch_item_escalation_across_brief_cycles](domains/ai_and_agents/watch_item_escalation_across_brief_cycles.md) | medium-high | ai_and_agents | Inject prior state for temporal reasoning. Escalation across cycles. |
 | [pattern-identity-first-agent-design](domains/meta_learning/pattern-identity-first-agent-design.md) | medium-high | meta_learning | Identity-first vs capability-first agent design. Kennedy framework. |
@@ -54,9 +56,9 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 |--------|------------------|--------------|-------|
 | [ai_and_agents](domains/ai_and_agents/) | 39 | 2026-04-08 | [DOMAIN_INDEX.md](domains/ai_and_agents/DOMAIN_INDEX.md) |
 | [business_operations](domains/business_operations/) | 10 | 2026-04-08 | [DOMAIN_INDEX.md](domains/business_operations/DOMAIN_INDEX.md) |
-| [tools_and_software](domains/tools_and_software/) | 5 | 2026-04-08 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
+| [tools_and_software](domains/tools_and_software/) | 6 | 2026-04-08 | [DOMAIN_INDEX.md](domains/tools_and_software/DOMAIN_INDEX.md) |
 | [security](domains/security/) | 7 | 2026-04-05 | [DOMAIN_INDEX.md](domains/security/DOMAIN_INDEX.md) |
-| [growth_marketing](domains/growth_marketing/) | 2 | 2026-04-02 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
+| [growth_marketing](domains/growth_marketing/) | 6 | 2026-04-08 | [DOMAIN_INDEX.md](domains/growth_marketing/DOMAIN_INDEX.md) |
 | [meta_learning](domains/meta_learning/) | 2 | 2026-04-05 | [DOMAIN_INDEX.md](domains/meta_learning/DOMAIN_INDEX.md) |
 | [forex_trading](domains/forex_trading/) | 0 | — | — |
 
@@ -66,8 +68,8 @@ For situational, tool-specific, or project-specific knowledge, see each domain's
 
 | Rating | Meaning | Count |
 |--------|---------|-------|
-| **high** | Multiple independent sources, quantified evidence, verified current | 22 |
-| **medium-high** | Solid evidence, single source or landscape may have shifted | 28 |
+| **high** | Multiple independent sources, quantified evidence, verified current | 23 |
+| **medium-high** | Solid evidence, single source or landscape may have shifted | 33 |
 | **medium** | Logical with some evidence, not rigorously quantified | 22 |
 | **low-medium** | Thin evidence or single anecdote | 1 |
 

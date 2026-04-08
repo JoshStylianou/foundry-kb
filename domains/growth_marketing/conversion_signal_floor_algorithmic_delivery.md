@@ -27,8 +27,15 @@ Meta March 2026 AI delivery update (unannounced, identified by advertisers throu
 - Migrate remaining click/traffic-objective campaigns to conversion objectives
 - This compounds with attribution reclassification (separate Core entry) — two problems hitting simultaneously: fewer reported conversions + worse delivery efficiency
 
+## April 2026 Update: Advantage+ Threshold Dropped to 25/Week
+
+Meta reduced the Advantage+ Shopping campaign conversion threshold from 50 to 25 conversions per week. This opens Advantage+ to smaller advertisers and lower-volume product lines. Campaigns that previously couldn't qualify for Advantage+ Shopping should be re-evaluated. The general signal floor principle still holds — below the threshold, CPMs spike — but the threshold itself has moved.
+
+Source: SocialBee, Digital Applied (April 2026)
+
 ## Boundaries
 
-- 50-event threshold is Meta-specific (Google PMax has analogous signal requirements at different thresholds)
-- Accounts already generating 50+ weekly conversion events per ad set were largely insulated
-- Threshold may shift as Meta's delivery algorithm continues evolving
+- Threshold is Meta-specific and continues evolving (was 50, now 25 for Advantage+ Shopping)
+- Google PMax has analogous signal requirements at different thresholds
+- Accounts already generating 25+ weekly conversion events per ad set are insulated
+- The 25-event threshold applies specifically to Advantage+ Shopping; other campaign types may retain higher thresholds
